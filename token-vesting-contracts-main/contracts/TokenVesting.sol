@@ -197,6 +197,10 @@ contract TokenVesting is Ownable, ReentrancyGuard{
             release(vestingScheduleId, vestedAmount);
         }
         uint256 unreleased = vestingSchedule.amountTotal.sub(vestingSchedule.released);
+
+        // Why vestingSchedulesTotalAmount need to sub unreleased?
+        // Since release function has sub released token.
+        // This seems like early release the token, while the remains can not be released anymore.
         vestingSchedulesTotalAmount = vestingSchedulesTotalAmount.sub(unreleased);
         vestingSchedule.revoked = true;
     }
