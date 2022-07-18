@@ -1,0 +1,52 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.ts --network goerli"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/hardhat-upgrades": "^1.13.0",
+    "@typechain/ethers-v5": "^7.2.0",
+    "@typechain/hardhat": "^2.3.1",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^12.20.42",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-promise": "^5.2.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.10.1",
+    "hardhat-gas-reporter": "^1.0.7",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.6",
+    "solidity-coverage": "^0.7.18",
+    "ts-node": "^10.4.0",
+    "typechain": "^5.2.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "@openzeppelin/contracts-upgradeable": "^4.4.2"
+  },
+  "description": "For most common staking applications, the admin has to provide the estimated APY for the program for a certain period of time beforehand. With the dynamic staking approach, it calculates the APY dynamically for a particular stakeholder based on the number of stakeholders, their staked amount and the rewards which were added to the Staking contract address till that point of time. There is no lock-in time for the stakeholder's stake in this approach. Stakeholders can remove their stake at any point in time and can claim the rewards. Here the staking program is done for a dummy StakeToken(STK) which is an ERC20 token deployed on the Goerli network.",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
