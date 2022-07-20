@@ -9,6 +9,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "base64-sol/base64.sol";
 import "./UTO8.sol";
 import "./SalesProvider.sol";
+import "hardhat/console.sol";
 
 contract Piamon is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
@@ -54,6 +55,7 @@ contract Piamon is ERC721URIStorage, Ownable {
         internal
         returns (uint256)
     {
+        require(salesProvider.checkIsBlindBoxIdExist(blindBoxId), "Blind box sales not exist.");
         require(salesProvider.checkIsSaleOpen(blindBoxId), "Sale is closed");
         require(salesProvider.checkIsSaleEnd(blindBoxId), "Sale has ended");
         require(
