@@ -57,7 +57,10 @@ describe("Piya minting flow", function () {
     it("ERC20 checker", async function () {
       // await uto8.totalSupply(sale_provider.address);
       // await expect(await uto8.totalSupply());
-      console.log("Total supply:", await uto8.totalSupply())
+      // console.log("Total supply:", await uto8.totalSupply())
+
+      const ownerBalance = await uto8.balanceOf(owner.address);
+      expect(await uto8.totalSupply()).to.equal(ownerBalance);
     });
 
     it("Only owner can set Sales Provider", async function () {
@@ -75,14 +78,14 @@ describe("Piya minting flow", function () {
         name: 'Sales Event 1',
         imageUrl: '',
         tokenIdStart: 0,
-        description: 'descrip.',
-        piamonMetadataUrl: 'metadata/',
+        description: 'The dragon creature named PIYA is an origin pet from Utopia No.8, it was born with an affinity to light elements. Although their appearances are adorkable, they seem to have incredible potential for growth.',
+        piamonMetadataUrl: 'https://testnet.uto8.io/metadata/',
         price: 100,
-        saleTimeStart: 1658306669,
-        saleTimeEnd:   1658335469,
+        saleTimeStart: 1658369988,
+        saleTimeEnd:   1658402388,
         isSaleOpen: true,
         totalQuantity: 10,
-        unboxTime: 1658335469,
+        unboxTime: 1658402388,
         vrfNumber: 0,
       }
       await sale_provider.addBlindBox(blindboxEvent);
@@ -179,6 +182,59 @@ describe("Piya minting flow", function () {
         await piya.balanceOf(owner.address)
       ).to.be.equal(2);
 
+    });
+
+    it("Check token uri", async function () {
+      
+      console.log(await piya.tokenURI(0));
+
+      // Check the NFT's balance of owner 
+      // expect(
+      //   await piya.tokenURI(0)
+      // ).to.be.equal(0);
+    });
+
+    it("Check user total minted count", async function () {
+      
+      // Before mint, should equal none of NFT in addr2
+      expect(
+        await sale_provider.getUserBlindboxTotalMintedCount(blindBoxId, addr2.address)
+      ).to.be.equal(0);
+      
+      // Send tokens to addr2 and approve to NFT contract
+      await expect(uto8.transfer(addr2.address, 1000))
+        .to.emit(uto8, "Transfer")
+        .withArgs(owner.address, addr2.address, 1000);
+      await uto8.connect(addr2).approve(piya.address, 9999999);
+      
+      tokenId = 3;
+      // Mint again
+      await expect(piya.connect(addr2).mintTo(
+        addr2.address,
+        productType,
+        blindBoxId
+      ))
+      .to.emit(piya, "Transfer")
+      .withArgs(constants.ZERO_ADDRESS, addr2.address, tokenId++);
+      
+      // After mint, should have 1 counting in sale_provider
+      expect(
+        await sale_provider.getUserBlindboxTotalMintedCount(blindBoxId, addr2.address)
+      ).to.be.equal(1);
+
+      // Mint second time
+      await expect(piya.connect(addr2).mintTo(
+        addr2.address,
+        productType,
+        blindBoxId
+      ))
+      .to.emit(piya, "Transfer")
+      .withArgs(constants.ZERO_ADDRESS, addr2.address, tokenId++);
+      
+      // After mint, should have 2 counting in sale_provider
+      expect(
+        await sale_provider.getUserBlindboxTotalMintedCount(blindBoxId, addr2.address)
+      ).to.be.equal(2);
     });
 
   });

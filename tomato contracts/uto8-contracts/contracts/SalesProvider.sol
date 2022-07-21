@@ -282,8 +282,7 @@ contract SalesProvider is VRFConsumerBase, Ownable {
         require(msg.sender == operator, "invalid operator");
         //console.log("Operator", operator);
         //console.log("msg.sender", msg.sender);
-        uint256 mintedQty = blindboxUserMintQuantity[_address][_blindBoxId];
-        blindboxUserMintQuantity[_address][_blindBoxId] = mintedQty + 1;
+        blindboxUserMintQuantity[_address][_blindBoxId] += 1;
         totalMintedCount = blindboxUserMintQuantity[_address][_blindBoxId];
     }
 }

@@ -32,6 +32,9 @@ async function main() {
 
     tokenId = 100001000022;
     console.log(`TokenId: ${tokenId} tokenURI: ${await contract.tokenURI(tokenId)}`);
+
+    tokenId = 100001000008;
+    console.log(`Egg TokenId: ${tokenId} tokenURI: ${await contract.tokenURI(tokenId)}`);
 }
 
 
