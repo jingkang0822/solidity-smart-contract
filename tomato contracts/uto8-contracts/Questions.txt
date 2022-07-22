@@ -23,3 +23,23 @@
 17. 盲盒沒賣完的話，random number 加上去之後會有問題？
 18. getRandomNumberForBlindBox 如果重覆呼叫的話，rbf 的值會變。需要防止重覆修改。
 19. SafeMath 可以移除，因為 solidity 0.8 以上已經不需要檢查。
+
+
+----- 修改 NFT Contracts -------
+1. 將 ERC721 改成 ERC721A, 增加前端使用者體驗，可以一次 mint 多隻。
+2. mintWithTemplate function (直接mint一隻 Piya)，此功能沒有寫完整，看是否要寫完，以備未來之需要。 
+3. 新增專門領錢的 function。 賣 PIYA 所得的 $UTO8，需要時再從合約中取出。
+4. 合併 addBlindBox 和 addBlindBoxSetting function 成一個獨立 function, 確保呼叫一次就能完成一個盲盒設定。
+5. Piamon 改名成 Piya。
+6. fulfillRandomness function 非同步改成同步。
+7. getRandomNumberForBlindBox 如果重覆呼叫的話，random number 的值會變。需要防止重覆修改。
+8. random number 需要考慮沒賣完的數量，確保 random 出來的 tokenId 和 metadataId 起始數值一樣。
+9. addWhiteListStruct function 需要改成可修改的 whitelist, 現在的做法是只能 add 一次。
+10. Minting function 沒有檢查 SalesProvider 是否已經設定, 需要檢查。
+11. SafeMath 可以移除，因為 solidity 0.8 op code 已經會檢查。可減少 bytecode 的長度。
+12. 缺少起源合成功能，需要新增 burn NFT 功能，新的 Piya 處理方式：
+    a. 修改 metadata (opensea refresh metadata API 不支援 polygon, user 需要手動更新)
+    b. 新增一隻合成的 NFT. (新的 tokenId 需要加在全新的起始數值上，以防和不同批次的 PIYA tokenId 重疊)
+13. 撰寫 NFT deploy script, 確保測試鏈的 deploy 參數和 production 一樣。
+14. 撰寫 NFT deploy blind box sales script.
+15. 撰寫 讀取 whitelist excel 檔，insert 到合約的 script. (Bevis 負責？)
