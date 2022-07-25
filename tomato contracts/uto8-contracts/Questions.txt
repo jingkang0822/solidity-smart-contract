@@ -1,0 +1,25 @@
+
+----- Token Contracts -----
+1. 合約中 withdraw money 是每一次 swap 時發生，這樣 gas 會比較高。建議寫一個專門領錢的 function，降低 gas。
+
+
+----- NFT Contracts -------
+1. 合約中 withdraw money 是每一次 mint 時發生，這樣 gas 會比較高。建議寫一個專門領錢的 function，降低 gas。
+2. 解盲功能沒有寫完？
+3. 不在 whitelist 中的 address, 卻可以 mint？
+4. 需要呼叫兩個 function addBlindBox 和 addBlindBoxSetting 公售設定才算完成。 建議呼叫和設定一次 function 就好。
+5. Minting function 沒有檢查 SalesProvider 是否已經設定？
+6. function decreaseWhiteListAvailableQuantity 的功能？
+7. blindboxUserMintQuantity 的功能？ 似乎沒有一個 function 可以去設定這值？
+8. addWhiteListStruct 需要確定重覆 insert 的話，值會變嗎？
+9. struct blindbox 和 struct whitelist 各有一個 price 設定? 應該只需要設定一個地方？
+10. Piamon 需要改成 Piya?
+11. Piamon.sol function symbol() 回傳值錯誤？ 其回傳 UT8, 正確的symbol是？
+12. 沒有修改 price 的 function. 建議新增設定 price function.
+13. 如果蛋沒賣完，剩下的會公售？
+14. 因為解盲是一次過把所有蛋開出來，如果蛋沒賣完的話也會一起開？
+15. whitelist price 和 公售 price 不一樣？
+16. 起源合成需要 burn 的功能？ 目前沒有
+17. 盲盒沒賣完的話，random number 加上去之後會有問題？
+18. getRandomNumberForBlindBox 如果重覆呼叫的話，rbf 的值會變。需要防止重覆修改。
+19. SafeMath 可以移除，因為 solidity 0.8 以上已經不需要檢查。

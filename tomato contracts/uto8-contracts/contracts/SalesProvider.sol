@@ -5,8 +5,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@chainlink/contracts/src/v0.8/VRFConsumerBase.sol";
 import {SafeMath} from "@openzeppelin/contracts/utils/math/SafeMath.sol";
-
-//import "hardhat/console.sol";
+import "hardhat/console.sol";
 
 contract SalesProvider is VRFConsumerBase, Ownable {
     using SafeMath for uint256;
@@ -128,6 +127,10 @@ contract SalesProvider is VRFConsumerBase, Ownable {
         onlyOwner
     {
         piamonTemplates.push(_template);
+    }
+
+    function checkIsBlindBoxIdExist(uint256 _blindBoxId) public view returns (bool) {
+        return _blindBoxId >= 0 && _blindBoxId < blindBoxes.length;
     }
 
     function checkIsSaleOpen(uint256 _blindBoxId) public view returns (bool) {
@@ -279,8 +282,7 @@ contract SalesProvider is VRFConsumerBase, Ownable {
         require(msg.sender == operator, "invalid operator");
         //console.log("Operator", operator);
         //console.log("msg.sender", msg.sender);
-        uint256 mintedQty = blindboxUserMintQuantity[_address][_blindBoxId];
-        blindboxUserMintQuantity[_address][_blindBoxId] = mintedQty + 1;
+        blindboxUserMintQuantity[_address][_blindBoxId] += 1;
         totalMintedCount = blindboxUserMintQuantity[_address][_blindBoxId];
     }
 }
