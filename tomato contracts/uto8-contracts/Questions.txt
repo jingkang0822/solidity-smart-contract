@@ -36,6 +36,8 @@
 8. random number 需要考慮沒賣完的數量，確保 random 出來的 tokenId 和 metadataId 起始數值一樣。
 9. addWhiteListStruct function 需要改成可修改的 whitelist, 現在的做法是只能 add 一次。
 10. Minting function 沒有檢查 SalesProvider 是否已經設定, 需要檢查。
+11 .NFT 合約 mintTo 各項目檢查，移到銷售合約中。
+新增銷售設定 function? 以防臨時需要修改公售時間、價格等設定。
 11. SafeMath 可以移除，因為 solidity 0.8 op code 已經會檢查。可減少 bytecode 的長度。
 12. 缺少起源合成功能，需要新增 burn NFT 功能，新的 Piya 處理方式：
     a. 修改 metadata (opensea refresh metadata API 不支援 polygon, user 需要手動更新)
