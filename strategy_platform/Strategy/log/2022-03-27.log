@@ -1,0 +1,3012 @@
+2022-03-27 10:30:08,896 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:08,989 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:30:08,990 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:30:08,991 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:30:08,991 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 10:30:09,067 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:09,105 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:30:09,107 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:30:09,107 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:30:09,108 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/trans/0x4d44a34d942409cd2e635d261dea1dd0530516c21afffaf81949a66d49ac25f9
+2022-03-27 10:30:09,112 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:30:11,360 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/trans/0x4d44a34d942409cd2e635d261dea1dd0530516c21afffaf81949a66d49ac25f9 HTTP/1.1" 200 None
+2022-03-27 10:30:11,418 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/token
+2022-03-27 10:30:11,421 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:30:14,707 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/token HTTP/1.1" 200 None
+2022-03-27 10:30:14,711 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions
+2022-03-27 10:30:14,717 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:30:15,176 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions HTTP/1.1" 200 16
+2022-03-27 10:30:38,004 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:38,049 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:30:38,050 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:30:38,050 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:30:38,051 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 10:30:38,070 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:38,108 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:30:38,109 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:30:38,109 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:30:38,110 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 02:30:00+00:00
+2022-03-27 10:30:38,110 [DEBUG] [http_browser(20)] [MainThread] Request url: https://swap-api.kimicat.com/pools/events/0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8/1646870400/1648348200
+2022-03-27 10:30:38,113 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): swap-api.kimicat.com:443
+2022-03-27 10:30:38,868 [DEBUG] [_make_request(456)] [MainThread] https://swap-api.kimicat.com:443 "GET /pools/events/0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8/1646870400/1648348200 HTTP/1.1" 200 None
+2022-03-27 10:30:40,153 [DEBUG] [fetch_dex_tx(27)] [MainThread] request success.
+2022-03-27 10:30:40,354 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,355 [DEBUG] [asar(407)] [MainThread] 1
+2022-03-27 10:30:40,355 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,355 [DEBUG] [asar(409)] [MainThread] timestamp          1.646872e+09
+block              1.435582e+07
+tick               1.972090e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.727408e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,365 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,365 [DEBUG] [asar(407)] [MainThread] 2
+2022-03-27 10:30:40,365 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,365 [DEBUG] [asar(409)] [MainThread] timestamp          1.646873e+09
+block              1.435592e+07
+tick               1.972460e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.717336e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,377 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,377 [DEBUG] [asar(407)] [MainThread] 3
+2022-03-27 10:30:40,378 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,378 [DEBUG] [asar(409)] [MainThread] timestamp          1.646874e+09
+block              1.435597e+07
+tick               1.972580e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.714077e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,389 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,390 [DEBUG] [asar(407)] [MainThread] 4
+2022-03-27 10:30:40,390 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,390 [DEBUG] [asar(409)] [MainThread] timestamp          1.646875e+09
+block              1.435604e+07
+tick               1.972920e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.704866e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,401 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,402 [DEBUG] [asar(407)] [MainThread] 5
+2022-03-27 10:30:40,402 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,402 [DEBUG] [asar(409)] [MainThread] timestamp          1.646876e+09
+block              1.435614e+07
+tick               1.972500e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.716249e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,413 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,413 [DEBUG] [asar(407)] [MainThread] 6
+2022-03-27 10:30:40,413 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,414 [DEBUG] [asar(409)] [MainThread] timestamp          1.646877e+09
+block              1.435621e+07
+tick               1.973090e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.700271e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,428 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,428 [DEBUG] [asar(407)] [MainThread] 7
+2022-03-27 10:30:40,428 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,429 [DEBUG] [asar(409)] [MainThread] timestamp          1.646878e+09
+block              1.435625e+07
+tick               1.974320e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.667263e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,440 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,440 [DEBUG] [asar(407)] [MainThread] 8
+2022-03-27 10:30:40,440 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,440 [DEBUG] [asar(409)] [MainThread] timestamp          1.646878e+09
+block              1.435631e+07
+tick               1.974380e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.665663e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,453 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,453 [DEBUG] [asar(407)] [MainThread] 9
+2022-03-27 10:30:40,453 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,454 [DEBUG] [asar(409)] [MainThread] timestamp          1.646880e+09
+block              1.435641e+07
+tick               1.974380e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.665663e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,466 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,467 [DEBUG] [asar(407)] [MainThread] 10
+2022-03-27 10:30:40,467 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,467 [DEBUG] [asar(409)] [MainThread] timestamp          1.646881e+09
+block              1.435649e+07
+tick               1.974370e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.665930e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,477 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,477 [DEBUG] [asar(407)] [MainThread] 11
+2022-03-27 10:30:40,477 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,477 [DEBUG] [asar(409)] [MainThread] timestamp          1.646882e+09
+block              1.435652e+07
+tick               1.974410e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.664864e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,487 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,488 [DEBUG] [asar(407)] [MainThread] 12
+2022-03-27 10:30:40,488 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,488 [DEBUG] [asar(409)] [MainThread] timestamp          1.646883e+09
+block              1.435662e+07
+tick               1.974390e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.665397e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,499 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,500 [DEBUG] [asar(407)] [MainThread] 13
+2022-03-27 10:30:40,500 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,500 [DEBUG] [asar(409)] [MainThread] timestamp          1.646884e+09
+block              1.435668e+07
+tick               1.974390e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.665397e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,510 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,511 [DEBUG] [asar(407)] [MainThread] 14
+2022-03-27 10:30:40,511 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,511 [DEBUG] [asar(409)] [MainThread] timestamp          1.646885e+09
+block              1.435678e+07
+tick               1.974390e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.665397e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,522 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,522 [DEBUG] [asar(407)] [MainThread] 15
+2022-03-27 10:30:40,522 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,522 [DEBUG] [asar(409)] [MainThread] timestamp          1.646886e+09
+block              1.435685e+07
+tick               1.974430e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.664331e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,534 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,534 [DEBUG] [asar(407)] [MainThread] 16
+2022-03-27 10:30:40,534 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,535 [DEBUG] [asar(409)] [MainThread] timestamp          1.646887e+09
+block              1.435691e+07
+tick               1.975700e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.630710e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,546 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,546 [DEBUG] [asar(407)] [MainThread] 17
+2022-03-27 10:30:40,546 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,546 [DEBUG] [asar(409)] [MainThread] timestamp          1.646888e+09
+block              1.435698e+07
+tick               1.976920e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.598812e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,557 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,557 [DEBUG] [asar(407)] [MainThread] 18
+2022-03-27 10:30:40,557 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,558 [DEBUG] [asar(409)] [MainThread] timestamp          1.646888e+09
+block              1.435705e+07
+tick               1.976900e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.599331e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,570 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,570 [DEBUG] [asar(407)] [MainThread] 19
+2022-03-27 10:30:40,570 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,570 [DEBUG] [asar(409)] [MainThread] timestamp          1.646889e+09
+block              1.435712e+07
+tick               1.976950e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.598032e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,584 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,585 [DEBUG] [asar(407)] [MainThread] 20
+2022-03-27 10:30:40,585 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,585 [DEBUG] [asar(409)] [MainThread] timestamp          1.646890e+09
+block              1.435715e+07
+tick               1.976920e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.598812e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     0.000000e+00
+lp_amount_0        1.000000e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000000e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         0.000000e+00
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            0.000000e+00
+equity             1.000000e+05
+dtype: float64
+2022-03-27 10:30:40,598 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,598 [DEBUG] [asar(407)] [MainThread] 21
+2022-03-27 10:30:40,598 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,598 [DEBUG] [asar(409)] [MainThread] timestamp          1646892000.0
+block                14357332.0
+tick                   197725.0
+lower_tick             196260.0
+upper_tick             200340.0
+price                   2590.25
+lower_price         1994.248864
+upper_price         2998.904549
+event                       add
+holder_value           100000.0
+holder_diff                   0
+holder_cum_pnl              0.0
+lp_amount_0            100000.0
+lp_amount_1                 0.0
+lp_total_value         100000.0
+lp_diff                     0.0
+lp_cum_pnl                  0.0
+fee_0                         0
+fee_1                         0
+fee_total_value             0.0
+fee_diff                    0.0
+cum_fee                     0.0
+equity                 100000.0
+dtype: object
+2022-03-27 10:30:40,605 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:40,963 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14357332&amount0=63440210398&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 233
+2022-03-27 10:30:40,964 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14357332&amount0=63440210398&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:40,965 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.0003860809570799224, 'price1': 2590.130338370951, 'tick': 197725, 'sqrt_price_x96': 1556749641299503147148908103303948, 'amount0': 63440210398, 'amount1': 14121664205925382144, 'liquidity': 10172716767055428}}
+2022-03-27 10:30:40,968 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,969 [DEBUG] [asar(407)] [MainThread] 21
+2022-03-27 10:30:40,969 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:40,969 [DEBUG] [asar(409)] [MainThread] timestamp          1646892000.0
+block                14357332.0
+tick                   197725.0
+lower_tick             196260.0
+upper_tick             200340.0
+price                   2590.25
+lower_price         1994.248864
+upper_price         2998.904549
+event                  add swap
+holder_value           100000.0
+holder_diff                   0
+holder_cum_pnl              0.0
+lp_amount_0        63440.210399
+lp_amount_1           14.114386
+lp_total_value         100000.0
+lp_diff                     0.0
+lp_cum_pnl                  0.0
+fee_0                         0
+fee_1                         0
+fee_total_value             0.0
+fee_diff                    0.0
+cum_fee                     0.0
+equity                 100000.0
+dtype: object
+2022-03-27 10:30:40,978 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:41,697 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357492&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 68
+2022-03-27 10:30:41,700 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357492&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:41,701 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 27440, 'earned1': 928752761758696}}
+2022-03-27 10:30:41,705 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:41,705 [DEBUG] [asar(407)] [MainThread] 22
+2022-03-27 10:30:41,705 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:41,705 [DEBUG] [asar(409)] [MainThread] timestamp          1.646894e+09
+block              1.435749e+07
+tick               1.977550e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.582491e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.989049e+04
+holder_diff       -1.095095e+02
+holder_cum_pnl    -1.095095e+02
+lp_amount_0        6.266437e+04
+lp_amount_1        1.441436e+01
+lp_total_value     9.988933e+04
+lp_diff           -1.106724e+02
+lp_cum_pnl        -1.106724e+02
+fee_0              2.744000e-02
+fee_1              9.287528e-04
+fee_total_value    2.425936e+00
+fee_diff           2.425936e+00
+cum_fee            2.425936e+00
+equity             9.989175e+04
+dtype: float64
+2022-03-27 10:30:41,716 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:42,401 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357538&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 70
+2022-03-27 10:30:42,404 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357538&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:42,405 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 1524432, 'earned1': 928752761758696}}
+2022-03-27 10:30:42,422 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:42,423 [DEBUG] [asar(407)] [MainThread] 23
+2022-03-27 10:30:42,423 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:42,424 [DEBUG] [asar(409)] [MainThread] timestamp          1.646895e+09
+block              1.435754e+07
+tick               1.977360e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.587402e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.995981e+04
+holder_diff        6.931790e+01
+holder_cum_pnl    -4.019165e+01
+lp_amount_0        6.315560e+04
+lp_amount_1        1.422432e+01
+lp_total_value     9.995965e+04
+lp_diff            7.032424e+01
+lp_cum_pnl        -4.034813e+01
+fee_0              1.524432e+00
+fee_1              9.287528e-04
+fee_total_value    3.927489e+00
+fee_diff           1.501553e+00
+cum_fee            3.927489e+00
+equity             9.996358e+04
+dtype: float64
+2022-03-27 10:30:42,444 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:43,007 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357636&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 70
+2022-03-27 10:30:43,008 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357636&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:43,008 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 2362492, 'earned1': 928752761758696}}
+2022-03-27 10:30:43,011 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:43,012 [DEBUG] [asar(407)] [MainThread] 24
+2022-03-27 10:30:43,012 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:43,012 [DEBUG] [asar(409)] [MainThread] timestamp          1.646896e+09
+block              1.435764e+07
+tick               1.977250e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.590250e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.000000e+05
+holder_diff        4.019165e+01
+holder_cum_pnl     0.000000e+00
+lp_amount_0        6.344021e+04
+lp_amount_1        1.411439e+01
+lp_total_value     1.000000e+05
+lp_diff            4.034813e+01
+lp_cum_pnl        -2.910383e-11
+fee_0              2.362492e+00
+fee_1              9.287528e-04
+fee_total_value    4.768194e+00
+fee_diff           8.407047e-01
+cum_fee            4.768194e+00
+equity             1.000048e+05
+dtype: float64
+2022-03-27 10:30:43,023 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:43,422 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357679&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 70
+2022-03-27 10:30:43,425 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357679&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:43,427 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 2362492, 'earned1': 933264333900143}}
+2022-03-27 10:30:43,443 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:43,444 [DEBUG] [asar(407)] [MainThread] 25
+2022-03-27 10:30:43,445 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:43,445 [DEBUG] [asar(409)] [MainThread] timestamp          1.646896e+09
+block              1.435768e+07
+tick               1.977260e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.589991e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.999634e+04
+holder_diff       -3.655613e+00
+holder_cum_pnl    -3.655613e+00
+lp_amount_0        6.341433e+04
+lp_amount_1        1.412438e+01
+lp_total_value     9.999634e+04
+lp_diff           -3.656907e+00
+lp_cum_pnl        -3.656907e+00
+fee_0              2.362492e+00
+fee_1              9.332643e-04
+fee_total_value    4.779638e+00
+fee_diff           1.144439e-02
+cum_fee            4.779638e+00
+equity             1.000011e+05
+dtype: float64
+2022-03-27 10:30:43,459 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:43,637 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357705&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 70
+2022-03-27 10:30:43,641 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357705&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:43,641 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 2362492, 'earned1': 953824285653302}}
+2022-03-27 10:30:43,646 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:43,646 [DEBUG] [asar(407)] [MainThread] 26
+2022-03-27 10:30:43,646 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:43,646 [DEBUG] [asar(409)] [MainThread] timestamp          1.646897e+09
+block              1.435770e+07
+tick               1.977260e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.589991e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.999634e+04
+holder_diff        0.000000e+00
+holder_cum_pnl    -3.655613e+00
+lp_amount_0        6.341433e+04
+lp_amount_1        1.412438e+01
+lp_total_value     9.999634e+04
+lp_diff            0.000000e+00
+lp_cum_pnl        -3.656907e+00
+fee_0              2.362492e+00
+fee_1              9.538243e-04
+fee_total_value    4.832888e+00
+fee_diff           5.325009e-02
+cum_fee            4.832888e+00
+equity             1.000012e+05
+dtype: float64
+2022-03-27 10:30:43,657 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:44,275 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357797&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 70
+2022-03-27 10:30:44,278 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357797&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:44,278 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 2612760, 'earned1': 953824285653302}}
+2022-03-27 10:30:44,282 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:44,282 [DEBUG] [asar(407)] [MainThread] 27
+2022-03-27 10:30:44,282 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:44,282 [DEBUG] [asar(409)] [MainThread] timestamp          1.646898e+09
+block              1.435780e+07
+tick               1.977230e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.590768e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.000073e+05
+holder_diff        1.096794e+01
+holder_cum_pnl     7.312324e+00
+lp_amount_0        6.349197e+04
+lp_amount_1        1.409440e+01
+lp_total_value     1.000073e+05
+lp_diff            1.096405e+01
+lp_cum_pnl         7.307147e+00
+fee_0              2.612760e+00
+fee_1              9.538243e-04
+fee_total_value    5.083898e+00
+fee_diff           2.510092e-01
+cum_fee            5.083898e+00
+equity             1.000124e+05
+dtype: float64
+2022-03-27 10:30:44,293 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:44,706 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357863&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 70
+2022-03-27 10:30:44,709 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357863&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:44,710 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 3377596, 'earned1': 953824285653302}}
+2022-03-27 10:30:44,726 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:44,726 [DEBUG] [asar(407)] [MainThread] 28
+2022-03-27 10:30:44,726 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:44,728 [DEBUG] [asar(409)] [MainThread] timestamp          1.646899e+09
+block              1.435786e+07
+tick               1.977130e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.593360e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.000439e+05
+holder_diff        3.658356e+01
+holder_cum_pnl     4.389589e+01
+lp_amount_0        6.375087e+04
+lp_amount_1        1.399452e+01
+lp_total_value     1.000437e+05
+lp_diff            3.640230e+01
+lp_cum_pnl         4.370944e+01
+fee_0              3.377596e+00
+fee_1              9.538243e-04
+fee_total_value    5.851206e+00
+fee_diff           7.673082e-01
+cum_fee            5.851206e+00
+equity             1.000496e+05
+dtype: float64
+2022-03-27 10:30:44,746 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:45,102 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357986&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:45,103 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14357986&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:45,103 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 3377596, 'earned1': 1470728887874643}}
+2022-03-27 10:30:45,108 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:45,108 [DEBUG] [asar(407)] [MainThread] 29
+2022-03-27 10:30:45,108 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:45,108 [DEBUG] [asar(409)] [MainThread] timestamp          1.646900e+09
+block              1.435799e+07
+tick               1.977300e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.588955e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.998173e+04
+holder_diff       -6.217030e+01
+holder_cum_pnl    -1.827441e+01
+lp_amount_0        6.331082e+04
+lp_amount_1        1.416435e+01
+lp_total_value     9.998169e+04
+lp_diff           -6.201620e+01
+lp_cum_pnl        -1.830675e+01
+fee_0              3.377596e+00
+fee_1              1.470729e-03
+fee_total_value    7.185247e+00
+fee_diff           1.334042e+00
+cum_fee            7.185247e+00
+equity             9.998888e+04
+dtype: float64
+2022-03-27 10:30:45,121 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:45,524 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14358034&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:45,525 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14358034&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:45,525 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 3377596, 'earned1': 2130469925757466}}
+2022-03-27 10:30:45,529 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:45,530 [DEBUG] [asar(407)] [MainThread] 30
+2022-03-27 10:30:45,530 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:45,530 [DEBUG] [asar(409)] [MainThread] timestamp          1.646901e+09
+block              1.435803e+07
+tick               1.977520e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.583266e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.990143e+04
+holder_diff       -8.029896e+01
+holder_cum_pnl    -9.857337e+01
+lp_amount_0        6.274191e+04
+lp_amount_1        1.438434e+01
+lp_total_value     9.990048e+04
+lp_diff           -8.120864e+01
+lp_cum_pnl        -9.951540e+01
+fee_0              3.377596e+00
+fee_1              2.130470e-03
+fee_total_value    8.881167e+00
+fee_diff           1.695919e+00
+cum_fee            8.881167e+00
+equity             9.990937e+04
+dtype: float64
+2022-03-27 10:30:45,541 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:46,129 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14358091&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:46,132 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14358091&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:46,133 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 6103455, 'earned1': 2130469925757466}}
+2022-03-27 10:30:46,137 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:46,137 [DEBUG] [asar(407)] [MainThread] 31
+2022-03-27 10:30:46,138 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:46,138 [DEBUG] [asar(409)] [MainThread] timestamp          1.646902e+09
+block              1.435809e+07
+tick               1.977170e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.592323e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.000293e+05
+holder_diff        1.278314e+02
+holder_cum_pnl     2.925807e+01
+lp_amount_0        6.364730e+04
+lp_amount_1        1.403447e+01
+lp_total_value     1.000292e+05
+lp_diff            1.286906e+02
+lp_cum_pnl         2.917522e+01
+fee_0              6.103455e+00
+fee_1              2.130470e-03
+fee_total_value    1.162632e+01
+fee_diff           2.745154e+00
+cum_fee            1.162632e+01
+equity             1.000408e+05
+dtype: float64
+2022-03-27 10:30:46,150 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:46,754 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14358178&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:46,755 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14358178&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:46,756 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 6506498, 'earned1': 2130469925757466}}
+2022-03-27 10:30:46,762 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:46,763 [DEBUG] [asar(407)] [MainThread] 32
+2022-03-27 10:30:46,763 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:46,763 [DEBUG] [asar(409)] [MainThread] timestamp          1.646903e+09
+block              1.435818e+07
+tick               1.977120e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.593619e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.000476e+05
+holder_diff        1.829818e+01
+holder_cum_pnl     4.755625e+01
+lp_amount_0        6.377677e+04
+lp_amount_1        1.398454e+01
+lp_total_value     1.000473e+05
+lp_diff            1.816221e+01
+lp_cum_pnl         4.733743e+01
+fee_0              6.506498e+00
+fee_1              2.130470e-03
+fee_total_value    1.203213e+01
+fee_diff           4.058050e-01
+cum_fee            1.203213e+01
+equity             1.000594e+05
+dtype: float64
+2022-03-27 10:30:46,779 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:47,158 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14358186&liquidity=10172716767055428&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:47,161 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14357332&endBlock=14358186&liquidity=10172716767055428&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:47,162 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 6625840, 'earned1': 2130469925757466}}
+2022-03-27 10:30:47,166 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,166 [DEBUG] [asar(407)] [MainThread] 33
+2022-03-27 10:30:47,166 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,166 [DEBUG] [asar(409)] [MainThread] timestamp           1646903700.0
+block                 14358186.0
+tick                    197711.0
+lower_tick              196260.0
+upper_tick              200340.0
+price                2593.878708
+lower_price          1994.248864
+upper_price          2998.904549
+event                     remove
+holder_value       100051.216988
+holder_diff             3.660735
+holder_cum_pnl         51.216988
+lp_amount_0          63802.66554
+lp_amount_1            13.974554
+lp_total_value     100050.963193
+lp_diff                 3.625762
+lp_cum_pnl             50.963193
+fee_0                    6.62584
+fee_1                    0.00213
+fee_total_value        12.152021
+fee_diff                0.119895
+cum_fee                12.152021
+equity             100063.115214
+dtype: object
+2022-03-27 10:30:47,176 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,176 [DEBUG] [asar(407)] [MainThread] 33
+2022-03-27 10:30:47,176 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,176 [DEBUG] [asar(409)] [MainThread] timestamp           1646903700.0
+block                 14358186.0
+tick                    197711.0
+lower_tick              196260.0
+upper_tick              200340.0
+price                2593.878708
+lower_price          1994.248864
+upper_price          2998.904549
+event                remove swap
+holder_value       100051.216988
+holder_diff             3.660735
+holder_cum_pnl         51.216988
+lp_amount_0        100063.115214
+lp_amount_1                    0
+lp_total_value     100063.115214
+lp_diff                 3.625762
+lp_cum_pnl             50.963193
+fee_0                    6.62584
+fee_1                    0.00213
+fee_total_value        12.152021
+fee_diff                0.119895
+cum_fee                12.152021
+equity             100063.115214
+dtype: object
+2022-03-27 10:30:47,186 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,186 [DEBUG] [asar(407)] [MainThread] 34
+2022-03-27 10:30:47,186 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,186 [DEBUG] [asar(409)] [MainThread] timestamp          1.646905e+09
+block              1.435827e+07
+tick               1.976950e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.598032e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,198 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,198 [DEBUG] [asar(407)] [MainThread] 35
+2022-03-27 10:30:47,198 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,198 [DEBUG] [asar(409)] [MainThread] timestamp          1.646906e+09
+block              1.435836e+07
+tick               1.976810e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.601672e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,209 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,209 [DEBUG] [asar(407)] [MainThread] 36
+2022-03-27 10:30:47,209 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,210 [DEBUG] [asar(409)] [MainThread] timestamp          1.646906e+09
+block              1.435840e+07
+tick               1.976730e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.603754e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,220 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,220 [DEBUG] [asar(407)] [MainThread] 37
+2022-03-27 10:30:47,221 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,221 [DEBUG] [asar(409)] [MainThread] timestamp          1.646908e+09
+block              1.435854e+07
+tick               1.976730e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.603754e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,232 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,232 [DEBUG] [asar(407)] [MainThread] 38
+2022-03-27 10:30:47,232 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,232 [DEBUG] [asar(409)] [MainThread] timestamp          1.646909e+09
+block              1.435863e+07
+tick               1.976940e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.598292e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,243 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,243 [DEBUG] [asar(407)] [MainThread] 39
+2022-03-27 10:30:47,244 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,244 [DEBUG] [asar(409)] [MainThread] timestamp          1.646910e+09
+block              1.435868e+07
+tick               1.977060e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.595176e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,254 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,255 [DEBUG] [asar(407)] [MainThread] 40
+2022-03-27 10:30:47,255 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,255 [DEBUG] [asar(409)] [MainThread] timestamp          1.646911e+09
+block              1.435874e+07
+tick               1.977120e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.593619e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,266 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,266 [DEBUG] [asar(407)] [MainThread] 41
+2022-03-27 10:30:47,266 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,266 [DEBUG] [asar(409)] [MainThread] timestamp          1.646913e+09
+block              1.435885e+07
+tick               1.977120e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.593619e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,278 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,279 [DEBUG] [asar(407)] [MainThread] 42
+2022-03-27 10:30:47,279 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,279 [DEBUG] [asar(409)] [MainThread] timestamp          1.646915e+09
+block              1.435907e+07
+tick               1.976750e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.603233e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,290 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,290 [DEBUG] [asar(407)] [MainThread] 43
+2022-03-27 10:30:47,290 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,290 [DEBUG] [asar(409)] [MainThread] timestamp          1.646919e+09
+block              1.435929e+07
+tick               1.976750e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.603233e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,301 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,301 [DEBUG] [asar(407)] [MainThread] 44
+2022-03-27 10:30:47,301 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,301 [DEBUG] [asar(409)] [MainThread] timestamp          1.646920e+09
+block              1.435942e+07
+tick               1.978240e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.564734e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,312 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,312 [DEBUG] [asar(407)] [MainThread] 45
+2022-03-27 10:30:47,312 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,312 [DEBUG] [asar(409)] [MainThread] timestamp          1.646921e+09
+block              1.435948e+07
+tick               1.977700e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.578621e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,323 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,323 [DEBUG] [asar(407)] [MainThread] 46
+2022-03-27 10:30:47,323 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,323 [DEBUG] [asar(409)] [MainThread] timestamp          1.646923e+09
+block              1.435962e+07
+tick               1.977590e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.581459e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,334 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,334 [DEBUG] [asar(407)] [MainThread] 47
+2022-03-27 10:30:47,334 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,335 [DEBUG] [asar(409)] [MainThread] timestamp          1.646924e+09
+block              1.435970e+07
+tick               1.977510e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.583524e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,345 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,346 [DEBUG] [asar(407)] [MainThread] 48
+2022-03-27 10:30:47,346 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,346 [DEBUG] [asar(409)] [MainThread] timestamp          1.646924e+09
+block              1.435978e+07
+tick               1.977180e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.592064e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,358 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,358 [DEBUG] [asar(407)] [MainThread] 49
+2022-03-27 10:30:47,358 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,358 [DEBUG] [asar(409)] [MainThread] timestamp          1.646925e+09
+block              1.435984e+07
+tick               1.976810e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.601672e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,370 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,370 [DEBUG] [asar(407)] [MainThread] 50
+2022-03-27 10:30:47,371 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,371 [DEBUG] [asar(409)] [MainThread] timestamp          1.646926e+09
+block              1.435989e+07
+tick               1.976400e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.612360e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,385 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,385 [DEBUG] [asar(407)] [MainThread] 51
+2022-03-27 10:30:47,385 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,386 [DEBUG] [asar(409)] [MainThread] timestamp          1.646927e+09
+block              1.435992e+07
+tick               1.977210e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.591286e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,397 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,397 [DEBUG] [asar(407)] [MainThread] 52
+2022-03-27 10:30:47,397 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,397 [DEBUG] [asar(409)] [MainThread] timestamp          1.646928e+09
+block              1.436003e+07
+tick               1.976790e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.602192e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,408 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,409 [DEBUG] [asar(407)] [MainThread] 53
+2022-03-27 10:30:47,409 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,409 [DEBUG] [asar(409)] [MainThread] timestamp          1.646929e+09
+block              1.436007e+07
+tick               1.976870e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.600111e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,420 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,420 [DEBUG] [asar(407)] [MainThread] 54
+2022-03-27 10:30:47,420 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,421 [DEBUG] [asar(409)] [MainThread] timestamp          1.646931e+09
+block              1.436024e+07
+tick               1.977080e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.594657e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,433 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,434 [DEBUG] [asar(407)] [MainThread] 55
+2022-03-27 10:30:47,434 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,434 [DEBUG] [asar(409)] [MainThread] timestamp          1.646932e+09
+block              1.436025e+07
+tick               1.977130e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.593360e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,446 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,446 [DEBUG] [asar(407)] [MainThread] 56
+2022-03-27 10:30:47,446 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,446 [DEBUG] [asar(409)] [MainThread] timestamp          1.646932e+09
+block              1.436034e+07
+tick               1.977130e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.593360e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,458 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,458 [DEBUG] [asar(407)] [MainThread] 57
+2022-03-27 10:30:47,458 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,458 [DEBUG] [asar(409)] [MainThread] timestamp          1.646933e+09
+block              1.436040e+07
+tick               1.977040e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.595695e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,470 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,470 [DEBUG] [asar(407)] [MainThread] 58
+2022-03-27 10:30:47,470 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,471 [DEBUG] [asar(409)] [MainThread] timestamp          1.646934e+09
+block              1.436047e+07
+tick               1.977030e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.595955e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,482 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,483 [DEBUG] [asar(407)] [MainThread] 59
+2022-03-27 10:30:47,483 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,483 [DEBUG] [asar(409)] [MainThread] timestamp          1.646935e+09
+block              1.436054e+07
+tick               1.977000e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.596733e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,495 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,495 [DEBUG] [asar(407)] [MainThread] 60
+2022-03-27 10:30:47,495 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,495 [DEBUG] [asar(409)] [MainThread] timestamp          1.646936e+09
+block              1.436061e+07
+tick               1.977030e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.595955e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,508 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,508 [DEBUG] [asar(407)] [MainThread] 61
+2022-03-27 10:30:47,508 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,508 [DEBUG] [asar(409)] [MainThread] timestamp          1.646937e+09
+block              1.436065e+07
+tick               1.977070e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.594916e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,519 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,520 [DEBUG] [asar(407)] [MainThread] 62
+2022-03-27 10:30:47,520 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,520 [DEBUG] [asar(409)] [MainThread] timestamp          1.646938e+09
+block              1.436075e+07
+tick               1.977070e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.594916e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,532 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,532 [DEBUG] [asar(407)] [MainThread] 63
+2022-03-27 10:30:47,532 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,533 [DEBUG] [asar(409)] [MainThread] timestamp          1.646939e+09
+block              1.436085e+07
+tick               1.977050e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.595435e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,544 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,544 [DEBUG] [asar(407)] [MainThread] 64
+2022-03-27 10:30:47,544 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,544 [DEBUG] [asar(409)] [MainThread] timestamp          1.646940e+09
+block              1.436090e+07
+tick               1.976820e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.601411e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,555 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,555 [DEBUG] [asar(407)] [MainThread] 65
+2022-03-27 10:30:47,555 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,557 [DEBUG] [asar(409)] [MainThread] timestamp          1.646942e+09
+block              1.436105e+07
+tick               1.976820e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.601411e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,568 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,568 [DEBUG] [asar(407)] [MainThread] 66
+2022-03-27 10:30:47,568 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,568 [DEBUG] [asar(409)] [MainThread] timestamp          1.646942e+09
+block              1.436108e+07
+tick               1.976480e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.610271e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,579 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,580 [DEBUG] [asar(407)] [MainThread] 67
+2022-03-27 10:30:47,580 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,580 [DEBUG] [asar(409)] [MainThread] timestamp          1.646944e+09
+block              1.436122e+07
+tick               1.976470e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.610532e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,593 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,593 [DEBUG] [asar(407)] [MainThread] 68
+2022-03-27 10:30:47,593 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,594 [DEBUG] [asar(409)] [MainThread] timestamp          1.646945e+09
+block              1.436133e+07
+tick               1.976510e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.609488e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,605 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,606 [DEBUG] [asar(407)] [MainThread] 69
+2022-03-27 10:30:47,606 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,606 [DEBUG] [asar(409)] [MainThread] timestamp          1.646946e+09
+block              1.436142e+07
+tick               1.976350e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.613666e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,617 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,617 [DEBUG] [asar(407)] [MainThread] 70
+2022-03-27 10:30:47,618 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,618 [DEBUG] [asar(409)] [MainThread] timestamp          1.646947e+09
+block              1.436146e+07
+tick               1.976330e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.614189e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,630 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,630 [DEBUG] [asar(407)] [MainThread] 71
+2022-03-27 10:30:47,630 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,630 [DEBUG] [asar(409)] [MainThread] timestamp          1.646950e+09
+block              1.436168e+07
+tick               1.976440e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.611315e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,642 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,643 [DEBUG] [asar(407)] [MainThread] 72
+2022-03-27 10:30:47,643 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,643 [DEBUG] [asar(409)] [MainThread] timestamp          1.646950e+09
+block              1.436170e+07
+tick               1.976790e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.602192e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,655 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,655 [DEBUG] [asar(407)] [MainThread] 73
+2022-03-27 10:30:47,655 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,656 [DEBUG] [asar(409)] [MainThread] timestamp          1.646952e+09
+block              1.436187e+07
+tick               1.976790e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.602192e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,667 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,668 [DEBUG] [asar(407)] [MainThread] 74
+2022-03-27 10:30:47,668 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,668 [DEBUG] [asar(409)] [MainThread] timestamp          1.646953e+09
+block              1.436189e+07
+tick               1.976560e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.608184e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,681 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,682 [DEBUG] [asar(407)] [MainThread] 75
+2022-03-27 10:30:47,682 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,682 [DEBUG] [asar(409)] [MainThread] timestamp          1.646954e+09
+block              1.436201e+07
+tick               1.976360e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.613405e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,696 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,696 [DEBUG] [asar(407)] [MainThread] 76
+2022-03-27 10:30:47,696 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,696 [DEBUG] [asar(409)] [MainThread] timestamp          1.646955e+09
+block              1.436206e+07
+tick               1.976360e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.613405e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,709 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,709 [DEBUG] [asar(407)] [MainThread] 77
+2022-03-27 10:30:47,709 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,710 [DEBUG] [asar(409)] [MainThread] timestamp          1.646956e+09
+block              1.436214e+07
+tick               1.976360e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.613405e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,723 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,723 [DEBUG] [asar(407)] [MainThread] 78
+2022-03-27 10:30:47,723 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,723 [DEBUG] [asar(409)] [MainThread] timestamp          1.646958e+09
+block              1.436224e+07
+tick               1.976660e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.605577e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,735 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,735 [DEBUG] [asar(407)] [MainThread] 79
+2022-03-27 10:30:47,735 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,735 [DEBUG] [asar(409)] [MainThread] timestamp          1.646959e+09
+block              1.436237e+07
+tick               1.976750e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.603233e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,747 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,748 [DEBUG] [asar(407)] [MainThread] 80
+2022-03-27 10:30:47,748 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,748 [DEBUG] [asar(409)] [MainThread] timestamp          1.646960e+09
+block              1.436238e+07
+tick               1.976890e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.599591e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,759 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,759 [DEBUG] [asar(407)] [MainThread] 81
+2022-03-27 10:30:47,760 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,760 [DEBUG] [asar(409)] [MainThread] timestamp          1.646960e+09
+block              1.436244e+07
+tick               1.976890e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.599591e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,772 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,772 [DEBUG] [asar(407)] [MainThread] 82
+2022-03-27 10:30:47,772 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,772 [DEBUG] [asar(409)] [MainThread] timestamp          1.646961e+09
+block              1.436252e+07
+tick               1.977660e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.579652e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,784 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,784 [DEBUG] [asar(407)] [MainThread] 83
+2022-03-27 10:30:47,784 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,784 [DEBUG] [asar(409)] [MainThread] timestamp          1.646962e+09
+block              1.436261e+07
+tick               1.977990e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.571154e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,796 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,796 [DEBUG] [asar(407)] [MainThread] 84
+2022-03-27 10:30:47,797 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,797 [DEBUG] [asar(409)] [MainThread] timestamp          1.646963e+09
+block              1.436265e+07
+tick               1.978000e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.570897e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,811 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,811 [DEBUG] [asar(407)] [MainThread] 85
+2022-03-27 10:30:47,811 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,812 [DEBUG] [asar(409)] [MainThread] timestamp          1.646964e+09
+block              1.436273e+07
+tick               1.978150e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.567043e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,825 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,825 [DEBUG] [asar(407)] [MainThread] 86
+2022-03-27 10:30:47,825 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,825 [DEBUG] [asar(409)] [MainThread] timestamp          1.646965e+09
+block              1.436281e+07
+tick               1.979040e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.544299e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,838 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,838 [DEBUG] [asar(407)] [MainThread] 87
+2022-03-27 10:30:47,838 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,838 [DEBUG] [asar(409)] [MainThread] timestamp          1.646966e+09
+block              1.436282e+07
+tick               1.979070e+05
+lower_tick                  NaN
+upper_tick                  NaN
+price              2.543536e+03
+lower_price                 NaN
+upper_price                 NaN
+event                       NaN
+holder_value                NaN
+holder_diff        0.000000e+00
+holder_cum_pnl     5.121699e+01
+lp_amount_0        1.000631e+05
+lp_amount_1        0.000000e+00
+lp_total_value     1.000631e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         5.096319e+01
+fee_0              0.000000e+00
+fee_1              0.000000e+00
+fee_total_value    0.000000e+00
+fee_diff           0.000000e+00
+cum_fee            1.215202e+01
+equity             1.000631e+05
+dtype: float64
+2022-03-27 10:30:47,851 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,852 [DEBUG] [asar(407)] [MainThread] 88
+2022-03-27 10:30:47,852 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:47,852 [DEBUG] [asar(409)] [MainThread] timestamp           1646966700.0
+block                 14362955.0
+tick                    197910.0
+lower_tick              196260.0
+upper_tick              200340.0
+price                2542.773262
+lower_price          1994.248864
+upper_price          2998.904549
+event                        add
+holder_value       100063.115214
+holder_diff                    0
+holder_cum_pnl         51.216988
+lp_amount_0        100063.115214
+lp_amount_1                  0.0
+lp_total_value     100063.115214
+lp_diff                      0.0
+lp_cum_pnl             50.963193
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                     0.0
+cum_fee                12.152021
+equity             100063.115214
+dtype: object
+2022-03-27 10:30:47,859 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:48,395 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14362955&amount0=59133612264&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 234
+2022-03-27 10:30:48,396 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14362955&amount0=59133612264&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:48,396 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.00039329789397740363, 'price1': 2542.601969939492, 'tick': 197910, 'sqrt_price_x96': 1571232284803710186190797370322017, 'amount0': 59133612264, 'amount1': 16107992586027333632, 'liquidity': 10253423833938330}}
+2022-03-27 10:30:48,402 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:48,402 [DEBUG] [asar(407)] [MainThread] 88
+2022-03-27 10:30:48,402 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:48,402 [DEBUG] [asar(409)] [MainThread] timestamp           1646966700.0
+block                 14362955.0
+tick                    197910.0
+lower_tick              196260.0
+upper_tick              200340.0
+price                2542.773262
+lower_price          1994.248864
+upper_price          2998.904549
+event                   add swap
+holder_value       100063.115214
+holder_diff                    0
+holder_cum_pnl         51.216988
+lp_amount_0         59133.612265
+lp_amount_1            16.096403
+lp_total_value     100063.115214
+lp_diff                      0.0
+lp_cum_pnl             50.963193
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                     0.0
+cum_fee                12.152021
+equity             100063.115214
+dtype: object
+2022-03-27 10:30:48,414 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:48,815 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363041&liquidity=10253423833938330&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 64
+2022-03-27 10:30:48,817 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363041&liquidity=10253423833938330&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:48,817 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 0, 'earned1': 952360180149746}}
+2022-03-27 10:30:48,823 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:48,823 [DEBUG] [asar(407)] [MainThread] 89
+2022-03-27 10:30:48,823 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:48,823 [DEBUG] [asar(409)] [MainThread] timestamp          1.646968e+09
+block              1.436304e+07
+tick               1.979410e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.534903e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.993644e+04
+holder_diff       -1.266787e+02
+holder_cum_pnl    -7.546168e+01
+lp_amount_0        5.833310e+04
+lp_amount_1        1.641171e+01
+lp_total_value     9.993520e+04
+lp_diff           -1.279184e+02
+lp_cum_pnl        -7.695525e+01
+fee_0              0.000000e+00
+fee_1              9.523602e-04
+fee_total_value    2.414141e+00
+fee_diff           2.414141e+00
+cum_fee            1.456616e+01
+equity             9.993761e+04
+dtype: float64
+2022-03-27 10:30:48,840 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:49,024 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363058&liquidity=10253423833938330&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 65
+2022-03-27 10:30:49,028 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363058&liquidity=10253423833938330&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:49,029 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 0, 'earned1': 1316418813561105}}
+2022-03-27 10:30:49,034 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:49,034 [DEBUG] [asar(407)] [MainThread] 90
+2022-03-27 10:30:49,034 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:49,034 [DEBUG] [asar(409)] [MainThread] timestamp          1.646968e+09
+block              1.436306e+07
+tick               1.979530e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.531863e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.988750e+04
+holder_diff       -4.893158e+01
+holder_cum_pnl    -1.243933e+02
+lp_amount_0        5.802356e+04
+lp_amount_1        1.653390e+01
+lp_total_value     9.988512e+04
+lp_diff           -5.007574e+01
+lp_cum_pnl        -1.270310e+02
+fee_0              0.000000e+00
+fee_1              1.316419e-03
+fee_total_value    3.332993e+00
+fee_diff           9.188516e-01
+cum_fee            1.548501e+01
+equity             9.988845e+04
+dtype: float64
+2022-03-27 10:30:49,047 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:49,646 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363239&liquidity=10253423833938330&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:49,647 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363239&liquidity=10253423833938330&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:49,647 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 2128587, 'earned1': 1316418813561105}}
+2022-03-27 10:30:49,653 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:49,653 [DEBUG] [asar(407)] [MainThread] 91
+2022-03-27 10:30:49,653 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:49,653 [DEBUG] [asar(409)] [MainThread] timestamp          1.646970e+09
+block              1.436324e+07
+tick               1.979260e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.538708e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       9.999768e+04
+holder_diff        1.101787e+02
+holder_cum_pnl    -1.421459e+01
+lp_amount_0        5.872029e+04
+lp_amount_1        1.625908e+01
+lp_total_value     9.999735e+04
+lp_diff            1.122321e+02
+lp_cum_pnl        -1.479889e+01
+fee_0              2.128587e+00
+fee_1              1.316419e-03
+fee_total_value    5.470590e+00
+fee_diff           2.137598e+00
+cum_fee            1.762261e+01
+equity             1.000028e+05
+dtype: float64
+2022-03-27 10:30:49,665 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:50,269 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363313&liquidity=10253423833938330&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:50,273 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363313&liquidity=10253423833938330&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:50,274 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 4792704, 'earned1': 1316884809777385}}
+2022-03-27 10:30:50,288 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:50,288 [DEBUG] [asar(407)] [MainThread] 92
+2022-03-27 10:30:50,289 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:50,289 [DEBUG] [asar(409)] [MainThread] timestamp          1.646971e+09
+block              1.436331e+07
+tick               1.978920e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.547354e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.001369e+05
+holder_diff        1.391673e+02
+holder_cum_pnl     1.249527e+02
+lp_amount_0        5.959900e+04
+lp_amount_1        1.591355e+01
+lp_total_value     1.001364e+05
+lp_diff            1.390788e+02
+lp_cum_pnl         1.242799e+02
+fee_0              4.792704e+00
+fee_1              1.316885e-03
+fee_total_value    8.147276e+00
+fee_diff           2.676686e+00
+cum_fee            2.029930e+01
+equity             1.001446e+05
+dtype: float64
+2022-03-27 10:30:50,306 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:51,876 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363367&liquidity=10253423833938330&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:51,877 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363367&liquidity=10253423833938330&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:51,877 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 4795474, 'earned1': 1316884809777385}}
+2022-03-27 10:30:51,881 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:51,881 [DEBUG] [asar(407)] [MainThread] 93
+2022-03-27 10:30:51,881 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:51,882 [DEBUG] [asar(409)] [MainThread] timestamp          1.646972e+09
+block              1.436337e+07
+tick               1.978910e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.547609e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.001410e+05
+holder_diff        4.100324e+00
+holder_cum_pnl     1.290531e+02
+lp_amount_0        5.962486e+04
+lp_amount_1        1.590339e+01
+lp_total_value     1.001405e+05
+lp_diff            4.052450e+00
+lp_cum_pnl         1.283324e+02
+fee_0              4.795474e+00
+fee_1              1.316885e-03
+fee_total_value    8.150381e+00
+fee_diff           3.105457e-03
+cum_fee            2.030240e+01
+equity             1.001486e+05
+dtype: float64
+2022-03-27 10:30:51,893 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:52,301 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363475&liquidity=10253423833938330&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:52,302 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363475&liquidity=10253423833938330&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:52,302 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 4795474, 'earned1': 1639919522828308}}
+2022-03-27 10:30:52,307 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:52,307 [DEBUG] [asar(407)] [MainThread] 94
+2022-03-27 10:30:52,307 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:52,307 [DEBUG] [asar(409)] [MainThread] timestamp          1.646974e+09
+block              1.436348e+07
+tick               1.979020e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.544808e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.000959e+05
+holder_diff       -4.508102e+01
+holder_cum_pnl     8.397205e+01
+lp_amount_0        5.934040e+04
+lp_amount_1        1.601511e+01
+lp_total_value     1.000958e+05
+lp_diff           -4.469686e+01
+lp_cum_pnl         8.363553e+01
+fee_0              4.795474e+00
+fee_1              1.639920e-03
+fee_total_value    8.968755e+00
+fee_diff           8.183732e-01
+cum_fee            2.112078e+01
+equity             1.001048e+05
+dtype: float64
+2022-03-27 10:30:52,321 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:52,923 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363559&liquidity=10253423833938330&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:52,924 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363559&liquidity=10253423833938330&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:52,925 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 4816829, 'earned1': 1966231816896184}}
+2022-03-27 10:30:52,931 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:52,931 [DEBUG] [asar(407)] [MainThread] 95
+2022-03-27 10:30:52,931 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:52,931 [DEBUG] [asar(409)] [MainThread] timestamp          1.646975e+09
+block              1.436356e+07
+tick               1.979120e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.542265e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.000549e+05
+holder_diff       -4.093974e+01
+holder_cum_pnl     4.303232e+01
+lp_amount_0        5.908193e+04
+lp_amount_1        1.611673e+01
+lp_total_value     1.000549e+05
+lp_diff           -4.086218e+01
+lp_cum_pnl         4.277335e+01
+fee_0              4.816829e+00
+fee_1              1.966232e-03
+fee_total_value    9.815511e+00
+fee_diff           8.467563e-01
+cum_fee            2.196753e+01
+equity             1.000647e+05
+dtype: float64
+2022-03-27 10:30:52,947 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:30:53,734 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363698&liquidity=10253423833938330&lowerTick=196260&upperTick=200340 HTTP/1.1" 200 71
+2022-03-27 10:30:53,735 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14362955&endBlock=14363698&liquidity=10253423833938330&lowerTick=196260&upperTick=200340
+2022-03-27 10:30:53,736 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 4850837, 'earned1': 1966231816896184}}
+2022-03-27 10:30:53,740 [DEBUG] [asar(406)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:53,740 [DEBUG] [asar(407)] [MainThread] 96
+2022-03-27 10:30:53,740 [DEBUG] [asar(408)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-03-27 10:30:53,740 [DEBUG] [asar(409)] [MainThread] timestamp          1.646977e+09
+block              1.436370e+07
+tick               1.979120e+05
+lower_tick         1.962600e+05
+upper_tick         2.003400e+05
+price              2.542265e+03
+lower_price        1.994249e+03
+upper_price        2.998905e+03
+event                       NaN
+holder_value       1.000549e+05
+holder_diff        0.000000e+00
+holder_cum_pnl     4.303232e+01
+lp_amount_0        5.908193e+04
+lp_amount_1        1.611673e+01
+lp_total_value     1.000549e+05
+lp_diff            0.000000e+00
+lp_cum_pnl         4.277335e+01
+fee_0              4.850837e+00
+fee_1              1.966232e-03
+fee_total_value    9.849519e+00
+fee_diff           3.400800e-02
+cum_fee            2.200154e+01
+equity             1.000648e+05
+dtype: float64
+2022-03-27 10:30:53,752 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:31:27,023 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:31:27,968 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:31:27,969 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:31:27,969 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:31:27,970 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 10:32:16,431 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:32:16,476 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:32:16,477 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:32:16,477 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:32:16,478 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 10:38:16,359 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:38:16,421 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:38:16,423 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:38:16,423 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:38:16,424 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 10:38:21,721 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:38:21,764 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:38:21,765 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:38:21,765 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:38:21,767 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/trans/0x4d44a34d942409cd2e635d261dea1dd0530516c21afffaf81949a66d49ac25f9
+2022-03-27 10:38:21,771 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:38:23,073 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/trans/0x4d44a34d942409cd2e635d261dea1dd0530516c21afffaf81949a66d49ac25f9 HTTP/1.1" 200 None
+2022-03-27 10:38:23,082 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/token
+2022-03-27 10:38:23,091 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:39:26,825 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/token HTTP/1.1" 200 None
+2022-03-27 10:39:26,830 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions
+2022-03-27 10:39:26,833 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:39:27,421 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions HTTP/1.1" 200 16
+2022-03-27 10:44:03,886 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:44:03,951 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:44:03,952 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:44:03,953 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:44:03,954 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 10:44:03,978 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 10:44:04,016 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 10:44:04,017 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 10:44:04,018 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 10:44:04,019 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/trans/0x4d44a34d942409cd2e635d261dea1dd0530516c21afffaf81949a66d49ac25f9
+2022-03-27 10:44:04,022 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:44:05,409 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/trans/0x4d44a34d942409cd2e635d261dea1dd0530516c21afffaf81949a66d49ac25f9 HTTP/1.1" 200 None
+2022-03-27 10:44:05,413 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/token
+2022-03-27 10:44:05,416 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:44:08,580 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/token HTTP/1.1" 200 None
+2022-03-27 10:44:08,587 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions
+2022-03-27 10:44:08,596 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:44:09,192 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions HTTP/1.1" 200 16
+2022-03-27 10:44:09,200 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/liquidity/0x19E1922614241c44368A4789Ac7E142719433732/0xDae15d09C96Cb8FBB42cFb82de3f412949f243E1/3000/-198060/-185160/50086/0/0/0/1648349229
+2022-03-27 10:44:09,212 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:44:19,881 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "POST /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/liquidity/0x19E1922614241c44368A4789Ac7E142719433732/0xDae15d09C96Cb8FBB42cFb82de3f412949f243E1/3000/-198060/-185160/50086/0/0/0/1648349229 HTTP/1.1" 200 None
+2022-03-27 10:44:19,885 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/trans/0x001192563f6b5521a5cd8e3f39f234726debd96352c19f5a2df229c76552c623
+2022-03-27 10:44:19,888 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:44:20,979 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/trans/0x001192563f6b5521a5cd8e3f39f234726debd96352c19f5a2df229c76552c623 HTTP/1.1" 200 None
+2022-03-27 10:44:20,984 [DEBUG] [is_tx_confirmed(154)] [MainThread] Confirmed tx_id: 0x001192563f6b5521a5cd8e3f39f234726debd96352c19f5a2df229c76552c623
+2022-03-27 10:44:20,984 [INFO] [waiting_to_confirmed(142)] [MainThread] Add liquidity success.
+2022-03-27 10:44:20,984 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions
+2022-03-27 10:44:20,987 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 10:44:23,241 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions HTTP/1.1" 200 None
+2022-03-27 11:02:06,010 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 11:02:06,068 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 11:02:06,069 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 11:02:06,069 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 11:02:06,070 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 11:02:06,089 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-03-27 11:02:06,130 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-03-27 11:02:06,133 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-03-27 11:02:06,134 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-03-27 11:02:06,138 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/trans/0x4d44a34d942409cd2e635d261dea1dd0530516c21afffaf81949a66d49ac25f9
+2022-03-27 11:02:06,148 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 11:02:07,486 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/trans/0x4d44a34d942409cd2e635d261dea1dd0530516c21afffaf81949a66d49ac25f9 HTTP/1.1" 200 None
+2022-03-27 11:02:07,491 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/token
+2022-03-27 11:02:07,494 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 11:02:10,638 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/token HTTP/1.1" 200 None
+2022-03-27 11:02:10,640 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions
+2022-03-27 11:02:10,643 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 11:02:13,024 [DEBUG] [_make_request(456)] [MainThread] https://testnet-teavault-api.teahouse.finance:443 "GET /v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/pool/positions HTTP/1.1" 200 None
+2022-03-27 11:02:13,028 [INFO] [swap_input_single(118)] [MainThread] Swap token: Test ETH, amount: 5.0086e-14 for token: TEST.
+2022-03-27 11:02:13,028 [DEBUG] [http_browser(20)] [MainThread] Request url: https://testnet-teavault-api.teahouse.finance/v1/0x97ad7c140e23982f15ac359eac96e4E71754d8C3/swap/input_single/0x19E1922614241c44368A4789Ac7E142719433732/0xDae15d09C96Cb8FBB42cFb82de3f412949f243E1/3000/1648356133/50086/0/0
+2022-03-27 11:02:13,031 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): testnet-teavault-api.teahouse.finance:443
+2022-03-27 11:02:36,810 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 11:02:44,111 [INFO] [swap_input_single(118)] [MainThread] Swap token: Test ETH, amount: 5.0086e-14 for token: TEST.
+2022-03-27 11:02:56,143 [ERROR] [http_browser(31)] [MainThread] API return error, status_code: 400, text: {"details":["not found"],"error":"Transaction info error"}
+
+2022-03-27 11:02:56,144 [ERROR] [http_browser(32)] [MainThread] json obj: {
+    "details": [
+        "not found"
+    ],
+    "error": "Transaction info error"
+}
+
+2022-03-27 11:02:56,144 [ERROR] [http_browser(33)] [MainThread] pickle obj: b'\x80\x05\x95\xbf\x08\x00\x00\x00\x00\x00\x00\x8c\x0frequests.models\x94\x8c\x08Response\x94\x93\x94)\x81\x94}\x94(\x8c\x08_content\x94C:{"details":["not found"],"error":"Transaction info error"}\x94\x8c\x0bstatus_code\x94M\x90\x01\x8c\x07headers\x94\x8c\x13requests.structures\x94\x8c\x13CaseInsensitiveDict\x94\x93\x94)\x81\x94}\x94\x8c\x06_store\x94\x8c\x0bcollections\x94\x8c\x0bOrderedDict\x94\x93\x94)R\x94(\x8c\x04date\x94\x8c\x04Date\x94\x8c\x1dSun, 27 Mar 2022 03:02:53 GMT\x94\x86\x94\x8c\x0ccontent-type\x94\x8c\x0cContent-Type\x94\x8c\x1fapplication/json; charset=utf-8\x94\x86\x94\x8c\x0econtent-length\x94\x8c\x0eContent-Length\x94\x8c\x0258\x94\x86\x94\x8c\nconnection\x94\x8c\nConnection\x94\x8c\nkeep-alive\x94\x86\x94\x8c\x0fcf-cache-status\x94\x8c\x0fCF-Cache-Status\x94\x8c\x07DYNAMIC\x94\x86\x94\x8c\texpect-ct\x94\x8c\tExpect-CT\x94\x8cWmax-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"\x94\x86\x94\x8c\treport-to\x94\x8c\tReport-To\x94X\x13\x01\x00\x00{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=7NJQ0tezww8nLqTp2zQNMWj19uQQf0bnfS%2FtlbATH4z9noBFc7tg%2FcyxjWz6yoshnM6Xe5laDWu8%2FkyXHDa3NaSnNi9MHZHKFHkGA6CRoRqJiQgERJL4yAQs3vZ%2FlKO%2F3rXOVRdBpqS61ZTYzajY2uKkCPisswqg"}],"group":"cf-nel","max_age":604800}\x94\x86\x94\x8c\x03nel\x94\x8c\x03NEL\x94\x8c<{"success_fraction":0,"report_to":"cf-nel","max_age":604800}\x94\x86\x94\x8c\x06server\x94\x8c\x06Server\x94\x8c\ncloudflare\x94\x86\x94\x8c\x06cf-ray\x94\x8c\x06CF-RAY\x94\x8c\x146f24e3c28dbf6e43-HKG\x94\x86\x94\x8c\x07alt-svc\x94\x8c\x07alt-svc\x94\x8c+h3=":443"; ma=86400, h3-29=":443"; ma=86400\x94\x86\x94usb\x8c\x03url\x94\x8cyhttps://testnet-teavault-api.teahouse.finance/v1/trans/0x562fcbb9aa7c427027a1c491ad27e0e2d0ef1910ee84054354f9d6dcf01c70a6\x94\x8c\x07history\x94]\x94\x8c\x08encoding\x94\x8c\x05utf-8\x94\x8c\x06reason\x94\x8c\x0bBad Request\x94\x8c\x07cookies\x94\x8c\x10requests.cookies\x94\x8c\x11RequestsCookieJar\x94\x93\x94)\x81\x94}\x94(\x8c\x07_policy\x94\x8c\x0ehttp.cookiejar\x94\x8c\x13DefaultCookiePolicy\x94\x93\x94)\x81\x94}\x94(\x8c\x08netscape\x94\x88\x8c\x07rfc2965\x94\x89\x8c\x13rfc2109_as_netscape\x94N\x8c\x0chide_cookie2\x94\x89\x8c\rstrict_domain\x94\x89\x8c\x1bstrict_rfc2965_unverifiable\x94\x88\x8c\x16strict_ns_unverifiable\x94\x89\x8c\x10strict_ns_domain\x94K\x00\x8c\x1cstrict_ns_set_initial_dollar\x94\x89\x8c\x12strict_ns_set_path\x94\x89\x8c\x10secure_protocols\x94\x8c\x05https\x94\x8c\x03wss\x94\x86\x94\x8c\x10_blocked_domains\x94)\x8c\x10_allowed_domains\x94N\x8c\x04_now\x94J\xe0\xd3?bub\x8c\x08_cookies\x94}\x94hcJ\xe0\xd3?bub\x8c\x07elapsed\x94\x8c\x08datetime\x94\x8c\ttimedelta\x94\x93\x94K\x00K\x00J\xe6\xda\x0c\x00\x87\x94R\x94\x8c\x07request\x94h\x00\x8c\x0fPreparedRequest\x94\x93\x94)\x81\x94}\x94(\x8c\x06method\x94\x8c\x03GET\x94h?h@h\x08h\x0b)\x81\x94}\x94h\x0eh\x11)R\x94(\x8c\nuser-agent\x94\x8c\nUser-Agent\x94\x8c\x16python-requests/2.27.1\x94\x86\x94\x8c\x0faccept-encoding\x94\x8c\x0fAccept-Encoding\x94\x8c\x11gzip, deflate, br\x94\x86\x94\x8c\x06accept\x94\x8c\x06Accept\x94\x8c\x03*/*\x94\x86\x94\x8c\nconnection\x94\x8c\nConnection\x94\x8c\nkeep-alive\x94\x86\x94\x8c\x07api-key\x94\x8c\x07api-key\x94\x8c YuX8Xb34bfWV72Uq8vJqB9PgYch2Bz4N\x94\x86\x94usbhdhJ)\x81\x94}\x94(hMhP)\x81\x94}\x94(hS\x88hT\x89hUNhV\x89hW\x89hX\x88hY\x89hZK\x00h[\x89h\\\x89h]h`ha)hbNhcJ\xdf\xd3?bubhd}\x94hcJ\xdf\xd3?bub\x8c\x04body\x94N\x8c\x05hooks\x94}\x94\x8c\x08response\x94]\x94s\x8c\x0e_body_position\x94Nubub.'
+2022-03-27 11:02:59,225 [INFO] [waiting_to_confirmed(142)] [MainThread] Swap success.
+2022-03-27 11:06:46,099 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 11:07:08,118 [INFO] [waiting_to_confirmed(142)] [MainThread] Add liquidity success.
+2022-03-27 20:45:43,397 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 20:45:43,633 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 20:46:04,211 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 20:46:04,378 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 20:50:12,963 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 20:50:13,162 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 20:54:36,637 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 20:54:36,788 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 20:55:02,870 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 20:55:03,028 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 20:58:01,907 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 20:58:02,062 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 20:58:06,350 [WARNING] [get_vault_balances(129)] [MainThread] Can not find USDC in vault.
+2022-03-27 20:58:06,350 [WARNING] [get_vault_balances(135)] [MainThread] Can not find WETH in vault.
+2022-03-27 20:58:06,351 [INFO] [get_vault_balances(141)] [MainThread] Get vault balance success.
+2022-03-27 20:58:06,351 [INFO] [get_vault_balances(142)] [MainThread] Vault balance, USDC: 0
+2022-03-27 20:58:06,351 [INFO] [get_vault_balances(143)] [MainThread] Vault balance, WETH: 0
+2022-03-27 20:58:26,567 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 20:58:26,735 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 20:58:31,035 [WARNING] [get_vault_balances(129)] [MainThread] Can not find USDC in vault.
+2022-03-27 20:58:31,036 [WARNING] [get_vault_balances(135)] [MainThread] Can not find WETH in vault.
+2022-03-27 20:58:31,036 [INFO] [get_vault_balances(141)] [MainThread] Get vault balance success.
+2022-03-27 20:58:31,037 [INFO] [get_vault_balances(142)] [MainThread] Vault balance, USDC: 0
+2022-03-27 20:58:31,037 [INFO] [get_vault_balances(143)] [MainThread] Vault balance, WETH: 0
+2022-03-27 21:19:05,637 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 21:19:05,765 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 13:15:00+00:00
+2022-03-27 21:19:05,790 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 21:20:46,714 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 21:20:46,858 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 13:15:00+00:00
+2022-03-27 21:20:46,884 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 21:21:21,951 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 21:21:22,050 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 13:15:00+00:00
+2022-03-27 21:21:22,086 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 21:23:31,180 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-27 21:23:55,818 [INFO] [start(37)] [MainThread] Start data feed thread.
+2022-03-27 21:30:17,241 [INFO] [update_real_time_k_bar(69)] [Thread-21] 2022-03-27 13:30:17.241862: triggering k bar updating.
+2022-03-27 21:30:17,241 [INFO] [get_ticks(21)] [Thread-21] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 13:30:00+00:00
+2022-03-27 21:30:17,572 [INFO] [format_swap_data(73)] [Thread-21] No swap data after filter.
+2022-03-27 21:30:17,573 [INFO] [update_real_time_k_bar(80)] [Thread-21] There is not ticks data within this interval. 
+2022-03-27 21:30:17,573 [INFO] [update_real_time_k_bar(81)] [Thread-21] 2022-03-27 13:15:00+00:00 - 2022-03-27 13:30:00+00:00
+2022-03-27 21:30:58,033 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 21:30:58,200 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 13:30:00+00:00
+2022-03-27 21:30:58,236 [INFO] [start_listening(74)] [Thread-6] Signal manager start listening.
+2022-03-27 21:31:44,111 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-27 21:32:18,642 [INFO] [update_real_time_k_bar(69)] [Thread-11] 2022-03-27 13:32:18.641063: triggering k bar updating.
+2022-03-27 21:32:18,642 [INFO] [get_ticks(21)] [Thread-11] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 13:30:00+00:00
+2022-03-27 21:32:18,643 [INFO] [start(37)] [MainThread] Start data feed thread.
+2022-03-27 21:32:18,969 [INFO] [format_swap_data(73)] [Thread-11] No swap data after filter.
+2022-03-27 21:32:18,970 [INFO] [update_real_time_k_bar(80)] [Thread-11] There is not ticks data within this interval. 
+2022-03-27 21:32:18,970 [INFO] [update_real_time_k_bar(81)] [Thread-11] 2022-03-27 13:15:00+00:00 - 2022-03-27 13:30:00+00:00
+2022-03-27 21:34:11,069 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 21:34:11,202 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 13:30:00+00:00
+2022-03-27 21:34:11,229 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-27 21:34:50,684 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-27 21:34:50,687 [INFO] [update_real_time_k_bar(70)] [Thread-quote] 2022-03-27 13:34:50.687908: triggering k bar updating.
+2022-03-27 21:34:50,687 [INFO] [start(38)] [MainThread] Start data feed thread.
+2022-03-27 21:34:50,688 [INFO] [get_ticks(21)] [Thread-quote] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 13:30:00+00:00
+2022-03-27 21:34:50,944 [INFO] [format_swap_data(73)] [Thread-quote] No swap data after filter.
+2022-03-27 21:34:50,944 [INFO] [update_real_time_k_bar(81)] [Thread-quote] There is not ticks data within this interval. 
+2022-03-27 21:34:50,945 [INFO] [update_real_time_k_bar(82)] [Thread-quote] 2022-03-27 13:15:00+00:00 - 2022-03-27 13:30:00+00:00
+2022-03-27 21:49:50,959 [INFO] [update_real_time_k_bar(70)] [Thread-quote] 2022-03-27 13:49:50.959555: triggering k bar updating.
+2022-03-27 21:49:50,960 [INFO] [get_ticks(21)] [Thread-quote] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 13:45:00+00:00
+2022-03-27 21:49:51,324 [INFO] [format_swap_data(73)] [Thread-quote] No swap data after filter.
+2022-03-27 21:49:51,324 [INFO] [update_real_time_k_bar(81)] [Thread-quote] There is not ticks data within this interval. 
+2022-03-27 21:49:51,324 [INFO] [update_real_time_k_bar(82)] [Thread-quote] 2022-03-27 13:15:00+00:00 - 2022-03-27 13:45:00+00:00
+2022-03-27 22:04:51,332 [INFO] [update_real_time_k_bar(70)] [Thread-quote] 2022-03-27 14:04:51.332872: triggering k bar updating.
+2022-03-27 22:04:51,333 [INFO] [get_ticks(21)] [Thread-quote] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:04:51,659 [INFO] [format_swap_data(73)] [Thread-quote] No swap data after filter.
+2022-03-27 22:04:51,660 [INFO] [update_real_time_k_bar(81)] [Thread-quote] There is not ticks data within this interval. 
+2022-03-27 22:04:51,660 [INFO] [update_real_time_k_bar(82)] [Thread-quote] 2022-03-27 13:15:00+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:05:22,460 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 22:05:22,601 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:05:22,642 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-27 22:06:04,792 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-27 22:06:04,795 [INFO] [update_real_time_k_bar(70)] [Thread-quote] 2022-03-27 14:06:04.794783: triggering k bar updating.
+2022-03-27 22:06:04,795 [INFO] [start(38)] [MainThread] Start data feed thread.
+2022-03-27 22:06:04,795 [INFO] [get_ticks(21)] [Thread-quote] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:06:05,131 [INFO] [format_swap_data(73)] [Thread-quote] No swap data after filter.
+2022-03-27 22:06:05,132 [INFO] [update_real_time_k_bar(81)] [Thread-quote] There is not ticks data within this interval. 
+2022-03-27 22:06:05,132 [INFO] [update_real_time_k_bar(82)] [Thread-quote] 2022-03-27 13:15:00+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:06:35,149 [INFO] [update_real_time_k_bar(70)] [Thread-quote] 2022-03-27 14:06:35.149110: triggering k bar updating.
+2022-03-27 22:06:35,150 [INFO] [get_ticks(21)] [Thread-quote] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:06:35,428 [INFO] [format_swap_data(73)] [Thread-quote] No swap data after filter.
+2022-03-27 22:06:35,429 [INFO] [update_real_time_k_bar(81)] [Thread-quote] There is not ticks data within this interval. 
+2022-03-27 22:06:35,429 [INFO] [update_real_time_k_bar(82)] [Thread-quote] 2022-03-27 13:15:00+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:13:00,355 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 22:13:00,457 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:13:00,483 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-27 22:13:39,772 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-27 22:13:39,774 [INFO] [update_real_time_k_bar(70)] [Thread-quote] 2022-03-27 14:13:39.774999: triggering k bar updating.
+2022-03-27 22:13:39,775 [INFO] [start(38)] [MainThread] Start data feed thread.
+2022-03-27 22:13:39,776 [INFO] [get_ticks(21)] [Thread-quote] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:13:40,151 [INFO] [format_swap_data(73)] [Thread-quote] No swap data after filter.
+2022-03-27 22:13:40,151 [INFO] [update_real_time_k_bar(81)] [Thread-quote] There is not ticks data within this interval. 
+2022-03-27 22:13:40,151 [INFO] [update_real_time_k_bar(82)] [Thread-quote] 2022-03-27 13:15:00+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:14:42,728 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 22:14:42,829 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 14:00:00+00:00
+2022-03-27 22:14:42,856 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-27 22:15:23,142 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-27 22:15:23,146 [INFO] [update_real_time_k_bar(70)] [Thread-quote] 2022-03-27 14:15:23.145708: triggering k bar updating.
+2022-03-27 22:15:23,146 [INFO] [get_ticks(21)] [Thread-quote] get ticks data: 2022-03-27 13:15:01+00:00 - 2022-03-27 14:15:00+00:00
+2022-03-27 22:15:23,146 [INFO] [start(38)] [MainThread] Start data feed thread.
+2022-03-27 22:16:51,894 [ERROR] [start_listening(113)] [Thread-signal] Signal manager error, stop listening event, please check!!
+2022-03-27 22:16:51,895 [ERROR] [start_listening(114)] [Thread-signal] 'NoneType' object has no attribute 'value'
+2022-03-27 22:19:55,771 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 22:19:55,883 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 14:15:00+00:00
+2022-03-27 22:19:55,908 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-27 22:21:39,720 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 22:21:39,888 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-27 22:22:34,696 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 22:22:34,853 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-27 22:22:38,851 [WARNING] [get_vault_balances(137)] [MainThread] Can not find USDC in vault.
+2022-03-27 22:22:38,852 [WARNING] [get_vault_balances(143)] [MainThread] Can not find WETH in vault.
+2022-03-27 22:22:38,852 [INFO] [get_vault_balances(149)] [MainThread] Get vault balance success.
+2022-03-27 22:22:38,852 [INFO] [get_vault_balances(150)] [MainThread] Vault balance, USDC: 0
+2022-03-27 22:22:38,852 [INFO] [get_vault_balances(151)] [MainThread] Vault balance, WETH: 0
+2022-03-27 22:23:06,207 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-27 22:23:06,349 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-27 22:23:10,434 [WARNING] [get_vault_balances(137)] [MainThread] Can not find USDC in vault.
+2022-03-27 22:23:10,435 [WARNING] [get_vault_balances(143)] [MainThread] Can not find WETH in vault.
+2022-03-27 22:23:10,436 [INFO] [get_vault_balances(149)] [MainThread] Get vault balance success.
+2022-03-27 22:23:10,437 [INFO] [get_vault_balances(150)] [MainThread] Vault balance, USDC: 0
+2022-03-27 22:23:10,438 [INFO] [get_vault_balances(151)] [MainThread] Vault balance, WETH: 0
+2022-03-27 22:23:14,339 [INFO] [get_ticks(21)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-27 14:15:00+00:00
+2022-03-27 22:36:21,487 [INFO] [get_ticks(25)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-22 00:00:00+00:00
