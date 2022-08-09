@@ -1,0 +1,448 @@
+2022-03-29 08:24:16,349 [INFO] [get_ticks(25)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-22 00:00:00+00:00
+2022-03-29 08:24:46,486 [INFO] [get_ticks(25)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-22 00:00:00+00:00
+2022-03-29 08:46:19,924 [INFO] [get_ticks(25)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-22 00:00:00+00:00
+2022-03-29 10:07:39,787 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 10:07:39,805 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 02:00:00+00:00
+2022-03-29 10:07:39,831 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-29 10:08:03,176 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 10:08:03,194 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 02:00:00+00:00
+2022-03-29 10:08:03,220 [INFO] [start_listening(75)] [Thread-signal] Signal manager start listening.
+2022-03-29 16:07:19,504 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-22 00:00:00+00:00
+2022-03-29 16:07:54,604 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-20 00:00:00+00:00 - 2022-03-29 00:00:00+00:00
+2022-03-29 16:07:59,086 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-29 16:08:07,947 [INFO] [console_gen_report(118)] [MainThread] Generate report success.
+2022-03-29 16:08:41,309 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-20 00:00:00+00:00 - 2022-03-29 00:00:00+00:00
+2022-03-29 16:08:45,878 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-29 16:09:12,688 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 00:00:00+00:00
+2022-03-29 16:09:49,627 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 00:00:00+00:00
+2022-03-29 16:10:38,895 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-29 16:27:48,826 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 16:27:48,849 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 08:00:00+00:00
+2022-03-29 16:27:48,878 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 16:28:29,920 [INFO] [is_hist_complete_callback(58)] [MainThread] Simulating in historical data complete.
+2022-03-29 16:45:44,410 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 16:45:44,419 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 08:00:00+00:00
+2022-03-29 16:45:44,446 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 16:46:21,096 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 16:52:58,988 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 16:52:58,996 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 08:00:00+00:00
+2022-03-29 16:53:36,169 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 16:54:37,017 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 16:54:37,025 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 08:00:00+00:00
+2022-03-29 16:55:13,019 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 16:56:51,118 [INFO] [console_gen_report(125)] [Thread-console-gen] Generate report success.
+2022-03-29 17:00:03,666 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:15+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:03,667 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:08,812 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:15+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:08,812 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:13,940 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:15+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:13,940 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:19,100 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:15+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:19,100 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:24,269 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:32+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:24,269 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:29,420 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:32+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:29,420 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:34,585 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:32+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:34,586 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:39,744 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:32+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:39,744 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:44,891 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:32+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:44,891 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:50,068 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:56:32+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:50,069 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:00:55,205 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:07+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:00:55,205 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:00,402 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:07+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:00,402 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:05,561 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:07+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:05,561 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:10,718 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:07+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:10,719 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:15,856 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:07+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:15,856 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:20,983 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:07+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:20,983 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:26,122 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:26,122 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:31,245 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:31,245 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:36,403 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:36,403 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:41,554 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:41,554 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:46,711 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:46,711 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:51,875 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:51,875 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:01:57,014 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:01:57,015 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:02,211 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:02,211 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:07,411 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:07,411 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:12,563 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:12,564 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:17,718 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:17,719 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:22,861 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:58:45+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:22,861 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:28,007 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:19+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:28,007 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:33,172 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:19+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:33,172 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:38,302 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:19+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:38,303 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:43,448 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:19+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:43,449 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:48,602 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:19+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:48,602 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:53,752 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:19+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:53,752 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:02:58,883 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:39+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:02:58,884 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:04,047 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:39+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:04,048 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:09,224 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:39+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:09,224 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:14,350 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:39+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:14,350 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:19,499 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:39+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:19,500 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:24,697 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:39+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:24,697 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:29,885 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:54+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:29,885 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:35,044 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:54+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:35,044 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:40,214 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:54+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:40,215 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:45,368 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:54+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:45,368 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:50,514 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:54+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:50,514 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:03:55,672 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 08:59:54+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:03:55,672 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 09:00:00+00:00.
+2022-03-29 17:04:00,831 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:00:33+00:00, Check time: 2022-03-29 09:00:00+00:00
+2022-03-29 17:04:00,831 [INFO] [update_real_time_k_bar(69)] [Thread-quote] Triggering k bar updating.
+2022-03-29 17:04:00,831 [INFO] [get_ticks(26)] [Thread-quote] get ticks data: 2022-03-29 08:00:01+00:00 - 2022-03-29 09:00:00+00:00
+2022-03-29 17:10:51,710 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 17:10:51,720 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 09:00:00+00:00
+2022-03-29 17:10:51,746 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:11:29,737 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 17:13:39,248 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 17:13:39,257 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 09:00:00+00:00
+2022-03-29 17:13:39,283 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:14:18,698 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 17:14:33,780 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:17:40,794 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 17:17:40,806 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 09:00:00+00:00
+2022-03-29 17:17:40,834 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:18:20,439 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 17:18:25,240 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:19:46,885 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 17:19:46,894 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 09:00:00+00:00
+2022-03-29 17:19:46,921 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:20:26,303 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 17:20:29,392 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:22:10,823 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 17:22:10,833 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 09:00:00+00:00
+2022-03-29 17:22:10,862 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:22:52,183 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 17:22:58,326 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:29:35,163 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 17:29:35,172 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 09:00:00+00:00
+2022-03-29 17:29:35,200 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 17:30:15,325 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 17:30:19,402 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:00:03,429 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:03,429 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:08,587 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:08,587 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:13,742 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:13,743 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:18,889 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:18,891 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:24,060 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:24,061 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:29,214 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:29,215 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:34,368 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:34,368 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:39,533 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:39,533 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:44,704 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:44,704 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:49,881 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:49,882 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:00:55,006 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:22+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:00:55,006 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:00,150 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:00,150 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:05,534 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:05,536 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:10,683 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:10,684 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:15,825 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:15,826 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:20,998 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:20,999 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:26,200 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:26,201 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:31,373 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:31,374 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:36,533 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:36,533 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:41,717 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:41,718 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:46,870 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:46,871 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:52,027 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:52,027 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:01:57,159 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:01:57,160 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:02,356 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:02,357 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:07,534 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:07,535 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:12,660 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:12,660 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:17,794 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:17,795 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:22,928 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:22,928 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:28,068 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:34+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:28,068 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:33,235 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:45+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:33,235 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:38,384 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:45+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:38,385 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:43,510 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:45+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:43,510 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:48,654 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:45+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:48,655 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:53,789 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:45+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:53,789 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:02:58,977 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:55:45+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:02:58,978 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:04,152 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:56:16+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:04,152 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:09,313 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:56:16+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:09,314 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:14,497 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:56:16+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:14,498 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:19,640 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:56:16+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:19,640 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:24,761 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:56:16+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:24,761 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:29,910 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:56:16+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:29,910 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:35,086 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:57:47+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:35,087 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:40,265 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:57:47+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:40,265 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:45,424 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:57:47+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:45,425 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:50,721 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:57:47+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:50,722 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:03:56,109 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:57:47+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:03:56,109 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:01,260 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:57:47+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:01,262 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:06,419 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:58:26+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:06,419 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:11,586 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:58:26+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:11,587 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:16,731 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:58:26+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:16,731 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:21,872 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:58:26+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:21,874 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:27,019 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:58:26+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:27,020 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:32,202 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:58:26+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:32,203 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:37,337 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:59:04+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:37,337 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:42,666 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:59:04+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:42,666 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:47,808 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:59:04+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:47,808 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:52,956 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:59:04+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:52,956 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:04:58,117 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:59:04+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:04:58,117 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:05:03,248 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:59:04+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:05:03,248 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:05:08,418 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 09:59:04+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:05:08,418 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-03-29 10:00:00+00:00.
+2022-03-29 18:05:14,569 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-03-29 10:02:50+00:00, Check time: 2022-03-29 10:00:00+00:00
+2022-03-29 18:05:14,569 [INFO] [update_real_time_k_bar(69)] [Thread-quote] Triggering k bar updating.
+2022-03-29 18:05:14,569 [INFO] [get_ticks(26)] [Thread-quote] get ticks data: 2022-03-29 09:00:01+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:05:14,763 [INFO] [start_listening(36)] [Thread-signal] Signal manager received signal: add
+2022-03-29 18:05:14,766 [INFO] [start_listening(68)] [Thread-signal] Signal manager receive signal not in action list.
+2022-03-29 18:07:12,937 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:07:12,947 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:07:12,973 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:07:50,662 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:07:54,625 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:15:21,537 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:15:21,548 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:15:21,576 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:16:00,488 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:19:20,526 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:19:20,535 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:19:20,561 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:19:58,890 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:20:07,115 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:21:16,250 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:21:16,260 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:21:16,286 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:22:04,462 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:22:04,471 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:22:04,497 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:22:47,044 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:22:51,092 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:24:17,230 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:24:17,241 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:24:17,274 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:24:55,017 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:24:58,532 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:25:55,135 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:25:55,145 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:25:55,175 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:26:40,466 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:26:43,760 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:27:11,046 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:27:11,055 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:27:11,082 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:27:52,277 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:28:03,378 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:29:16,102 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:29:16,111 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:29:16,142 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:30:01,456 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:31:57,878 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:32:15,495 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:32:15,504 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:32:15,532 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:32:52,549 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:32:54,576 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:33:40,762 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:33:40,771 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:33:40,798 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:34:20,966 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:39:02,392 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:39:32,717 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:39:32,726 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:39:32,754 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:40:08,649 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:40:16,414 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:49:37,916 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:49:37,925 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:49:37,952 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:50:14,060 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:50:16,924 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:51:05,713 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:51:05,723 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:51:05,751 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:51:46,200 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:51:54,069 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:52:44,993 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:52:45,003 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:52:45,028 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:53:22,408 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:53:27,870 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:55:37,146 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:55:37,156 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:55:37,185 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:56:16,066 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:56:45,893 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:58:27,055 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:58:27,065 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:58:27,091 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:59:06,563 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 18:59:06,572 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 18:59:55,098 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 18:59:55,108 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 10:00:00+00:00
+2022-03-29 18:59:55,133 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:00:31,843 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:00:31,851 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:01:09,252 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:01:09,262 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:01:09,287 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:01:48,597 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:01:48,605 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:10:23,679 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:10:23,689 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:10:23,716 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:11:02,660 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:11:02,667 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:11:30,510 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:11:30,524 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:11:30,549 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:12:15,331 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:12:15,339 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:13:23,555 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:13:23,564 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:13:23,590 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:14:07,700 [INFO] [is_hist_complete_callback(65)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:14:07,709 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:14:38,365 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:14:38,374 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:14:38,401 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:15:00,765 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:15:00,775 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:15:00,803 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:15:45,192 [INFO] [is_hist_complete_callback(66)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:15:45,201 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:16:36,280 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:16:36,290 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:16:36,317 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:17:17,214 [INFO] [is_hist_complete_callback(61)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:17:21,182 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:17:27,020 [INFO] [console_gen_report(121)] [MainThread] Generate report success.
+2022-03-29 19:17:35,131 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:17:40,845 [INFO] [console_gen_report(121)] [MainThread] Generate report success.
+2022-03-29 19:17:58,194 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:18:03,920 [INFO] [console_gen_report(121)] [MainThread] Generate report success.
+2022-03-29 19:18:23,150 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:18:23,159 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:18:23,185 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:19:13,507 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:19:13,517 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:19:13,551 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:20:06,051 [INFO] [is_hist_complete_callback(61)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:20:23,996 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:20:34,322 [INFO] [console_gen_report(121)] [MainThread] Generate report success.
+2022-03-29 19:20:40,669 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:22:52,452 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:22:52,462 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:22:52,491 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:23:31,787 [INFO] [is_hist_complete_callback(61)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:23:36,689 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:25:27,683 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:25:27,692 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:25:27,719 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:26:09,456 [INFO] [is_hist_complete_callback(61)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:26:29,364 [INFO] [console_gen_report(121)] [MainThread] Generate report success.
+2022-03-29 19:27:00,427 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:27:00,437 [INFO] [get_ticks(26)] [MainThread] get ticks data: 2022-03-10 00:00:00+00:00 - 2022-03-29 11:00:00+00:00
+2022-03-29 19:27:00,465 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:27:41,967 [INFO] [is_hist_complete_callback(61)] [MainThread] Simulating in historical data complete.
+2022-03-29 19:27:58,275 [INFO] [console_gen_report(121)] [MainThread] Generate report success.
+2022-03-29 19:36:11,417 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:36:11,456 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:36:15,163 [WARNING] [get_vault_balances(94)] [MainThread] Can not find USDC in vault.
+2022-03-29 19:36:15,163 [WARNING] [get_vault_balances(100)] [MainThread] Can not find WETH in vault.
+2022-03-29 19:36:15,163 [INFO] [get_vault_balances(106)] [MainThread] Get vault balance success.
+2022-03-29 19:36:15,164 [INFO] [get_vault_balances(107)] [MainThread] Vault balance, USDC: 0
+2022-03-29 19:36:15,164 [INFO] [get_vault_balances(108)] [MainThread] Vault balance, WETH: 0
+2022-03-29 19:37:15,648 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:37:15,685 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.
+2022-03-29 19:37:19,331 [WARNING] [get_vault_balances(94)] [MainThread] Can not find USDC in vault.
+2022-03-29 19:37:19,331 [WARNING] [get_vault_balances(100)] [MainThread] Can not find WETH in vault.
+2022-03-29 19:37:19,332 [INFO] [get_vault_balances(106)] [MainThread] Get vault balance success.
+2022-03-29 19:37:19,332 [INFO] [get_vault_balances(107)] [MainThread] Vault balance, USDC: 0
+2022-03-29 19:37:19,332 [INFO] [get_vault_balances(108)] [MainThread] Vault balance, WETH: 0
+2022-03-29 19:39:05,122 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-03-29 19:39:05,158 [INFO] [start_listening(32)] [Thread-signal] Signal manager start listening.

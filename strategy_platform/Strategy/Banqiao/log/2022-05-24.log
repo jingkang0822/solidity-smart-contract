@@ -1,0 +1,1976 @@
+2022-05-24 11:26:39,364 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:26:39,409 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8 HTTP/1.1" 200 364
+2022-05-24 11:26:39,410 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/info?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8
+2022-05-24 11:26:39,410 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'chain_id': 1, 'pool_address': '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8', 'created_block': 12370624, 'fee': 3000, 'tick_spacing': 60, 'token0_address': '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', 'token1_address': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', 'token0_symbol': 'USDC', 'token1_symbol': 'WETH', 'token0_decimals': 6, 'token1_decimals': 18}}
+2022-05-24 11:26:39,412 [INFO] [__init__(21)] [MainThread] Load environment variable success.
+2022-05-24 11:26:39,974 [WARNING] [consolewrite_warnerror(123)] [MainThread] R[write to console]: 
+Attaching package: 'basicPlotteR'
+
+
+2022-05-24 11:26:39,978 [WARNING] [consolewrite_warnerror(123)] [MainThread] R[write to console]: The following object is masked from 'package:httr':
+
+    progress
+
+
+2022-05-24 11:26:40,057 [WARNING] [consolewrite_warnerror(123)] [MainThread] R[write to console]: data.table 1.14.2 using 4 threads (see ?getDTthreads).  Latest news: r-datatable.com
+
+2022-05-24 11:26:40,213 [WARNING] [consolewrite_warnerror(123)] [MainThread] R[write to console]: 
+Attaching package: 'lubridate'
+
+
+2022-05-24 11:26:40,214 [WARNING] [consolewrite_warnerror(123)] [MainThread] R[write to console]: The following objects are masked from 'package:data.table':
+
+    hour, isoweek, mday, minute, month, quarter, second, wday, week,
+    yday, year
+
+
+2022-05-24 11:26:40,215 [WARNING] [consolewrite_warnerror(123)] [MainThread] R[write to console]: The following objects are masked from 'package:base':
+
+    date, intersect, setdiff, union
+
+
+2022-05-24 11:26:40,635 [DEBUG] [http_browser(20)] [MainThread] Request url: https://teavault-api.teahouse.finance/v1/0xB852f8541b67bC6c98D80B7cC53a8D459EB1E8Ea/token
+2022-05-24 11:26:40,638 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): teavault-api.teahouse.finance:443
+2022-05-24 11:26:44,999 [DEBUG] [_make_request(456)] [MainThread] https://teavault-api.teahouse.finance:443 "GET /v1/0xB852f8541b67bC6c98D80B7cC53a8D459EB1E8Ea/token HTTP/1.1" 200 None
+2022-05-24 11:26:45,049 [INFO] [get_ticks(33)] [MainThread] get ticks data: 2021-06-06 08:00:00+00:00 - 2022-05-24 00:00:00+00:00
+2022-05-24 11:26:45,049 [DEBUG] [http_browser(20)] [MainThread] Request url: https://swap-api.teahouse.finance/eth/pools/events/0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8/1622966400/1653350400
+2022-05-24 11:26:45,053 [DEBUG] [_new_conn(1001)] [MainThread] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 11:26:45,078 [INFO] [start_listening(53)] [Thread-signal] Signal manager start listening.
+2022-05-24 11:26:52,177 [DEBUG] [_make_request(456)] [MainThread] https://swap-api.teahouse.finance:443 "GET /eth/pools/events/0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8/1622966400/1653350400 HTTP/1.1" 200 None
+2022-05-24 11:27:07,315 [DEBUG] [fetch_dex_tx(42)] [MainThread] request success.
+2022-05-24 11:27:10,068 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:10,083 [DEBUG] [asar(426)] [MainThread] 1
+2022-05-24 11:27:10,083 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:10,083 [DEBUG] [asar(428)] [MainThread] timestamp          1626163200.0
+block                12817568.0
+tick                   200189.0
+lower_tick             198420.0
+upper_tick             202620.0
+price               2024.588996
+lower_price         1587.687999
+upper_price         2416.349356
+event                       add
+holder_value           100000.0
+holder_diff                   0
+holder_cum_pnl                0
+lp_amount_0            100000.0
+lp_amount_1                 0.0
+lp_total_value         100000.0
+lp_diff                       0
+lp_cum_pnl                    0
+fee_0                         0
+fee_1                         0
+fee_total_value             0.0
+fee_diff                      0
+cum_fee                       0
+equity                 100000.0
+dtype: object
+2022-05-24 11:27:10,083 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:10,280 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=12817568&amount0=57484060527&lowerTick=198420&upperTick=202620 HTTP/1.1" 200 234
+2022-05-24 11:27:10,295 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=12817568&amount0=57484060527&lowerTick=198420&upperTick=202620
+2022-05-24 11:27:10,295 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.0004939397740819685, 'price1': 2024.5383191879816, 'tick': 200189, 'sqrt_price_x96': 1760826570979217766370914916891913, 'amount0': 57484060527, 'amount1': 21005189884455874560, 'liquidity': 11163975715626152}}
+2022-05-24 11:27:10,295 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:10,295 [DEBUG] [asar(426)] [MainThread] 1
+2022-05-24 11:27:10,295 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:10,295 [DEBUG] [asar(428)] [MainThread] timestamp          1626163200.0
+block                12817568.0
+tick                   200189.0
+lower_tick             198420.0
+upper_tick             202620.0
+price               2024.588996
+lower_price         1587.687999
+upper_price         2416.349356
+event                  add swap
+holder_value           100000.0
+holder_diff                   0
+holder_cum_pnl                0
+lp_amount_0        57484.060527
+lp_amount_1           20.999788
+lp_total_value         100000.0
+lp_diff                       0
+lp_cum_pnl                    0
+fee_0                         0
+fee_1                         0
+fee_total_value             0.0
+fee_diff                      0
+cum_fee                       0
+equity                 100000.0
+dtype: object
+2022-05-24 11:27:10,295 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-07-13 08:00:00+00:00
+2022-05-24 11:27:12,210 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:12,317 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=12817568&endBlock=12938428&liquidity=11163975715626152&lowerTick=198420&upperTick=202620 HTTP/1.1" 200 76
+2022-05-24 11:27:12,317 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=12817568&endBlock=12938428&liquidity=11163975715626152&lowerTick=198420&upperTick=202620
+2022-05-24 11:27:12,317 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 1929390302, 'earned1': 881268062150041344}}
+2022-05-24 11:27:12,339 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:12,339 [DEBUG] [asar(426)] [MainThread] 2
+2022-05-24 11:27:12,339 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:12,339 [DEBUG] [asar(428)] [MainThread] timestamp           1627804800.0
+block                 12938428.0
+tick                    197723.0
+lower_tick              198420.0
+upper_tick              202620.0
+price                2590.768076
+lower_price          1587.687999
+upper_price          2416.349356
+event                     remove
+holder_value       111889.640567
+holder_diff         11889.640567
+holder_cum_pnl      11889.640567
+lp_amount_0        103931.652834
+lp_amount_1                  0.0
+lp_total_value     103931.652834
+lp_diff              3931.652834
+lp_cum_pnl           3931.652834
+fee_0                1929.390302
+fee_1                   0.881268
+fee_total_value      4212.551463
+fee_diff             4212.551463
+cum_fee              4212.551463
+equity             108144.204297
+dtype: object
+2022-05-24 11:27:12,354 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:12,354 [DEBUG] [asar(426)] [MainThread] 2
+2022-05-24 11:27:12,354 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:12,354 [DEBUG] [asar(428)] [MainThread] timestamp           1627804800.0
+block                 12938428.0
+tick                    197723.0
+lower_tick              198420.0
+upper_tick              202620.0
+price                2590.768076
+lower_price          1587.687999
+upper_price          2416.349356
+event                remove swap
+holder_value       111889.640567
+holder_diff         11889.640567
+holder_cum_pnl      11889.640567
+lp_amount_0        108144.204297
+lp_amount_1                    0
+lp_total_value     108144.204297
+lp_diff              3931.652834
+lp_cum_pnl           3931.652834
+fee_0                1929.390302
+fee_1                   0.881268
+fee_total_value      4212.551463
+fee_diff             4212.551463
+cum_fee              4212.551463
+equity             108144.204297
+dtype: object
+2022-05-24 11:27:12,354 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-08-01 08:00:00+00:00
+2022-05-24 11:27:12,354 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:12,354 [DEBUG] [asar(426)] [MainThread] 3
+2022-05-24 11:27:12,354 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:12,354 [DEBUG] [asar(428)] [MainThread] timestamp           1627804801.0
+block                 12938429.0
+tick                    197723.0
+lower_tick              196140.0
+upper_tick              198780.0
+price                2590.768076
+lower_price          2330.912148
+upper_price           3035.10637
+event                        add
+holder_value       108144.204297
+holder_diff                    0
+holder_cum_pnl      11889.640567
+lp_amount_0        108144.204297
+lp_amount_1                    0
+lp_total_value     108144.204297
+lp_diff                        0
+lp_cum_pnl           3931.652834
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee              4212.551463
+equity             108144.204297
+dtype: object
+2022-05-24 11:27:12,370 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:12,417 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=12938429&amount0=43636717367&lowerTick=196140&upperTick=198780 HTTP/1.1" 200 235
+2022-05-24 11:27:12,417 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=12938429&amount0=43636717367&lowerTick=196140&upperTick=198780
+2022-05-24 11:27:12,417 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.00038599431249485743, 'price1': 2590.7117478921996, 'tick': 197723, 'sqrt_price_x96': 1556574948022374739742443431024978, 'amount0': 43636717367, 'amount1': 24907799024307068928, 'liquidity': 16658326678760968}}
+2022-05-24 11:27:12,417 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:12,417 [DEBUG] [asar(426)] [MainThread] 3
+2022-05-24 11:27:12,417 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:12,417 [DEBUG] [asar(428)] [MainThread] timestamp           1627804801.0
+block                 12938429.0
+tick                    197723.0
+lower_tick              196140.0
+upper_tick              198780.0
+price                2590.768076
+lower_price          2330.912148
+upper_price           3035.10637
+event                   add swap
+holder_value       108144.204297
+holder_diff                    0
+holder_cum_pnl      11889.640567
+lp_amount_0         43636.717368
+lp_amount_1            24.898982
+lp_total_value     108144.204297
+lp_diff                        0
+lp_cum_pnl           3931.652834
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee              4212.551463
+equity             108144.204297
+dtype: object
+2022-05-24 11:27:12,417 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-08-01 08:00:01+00:00
+2022-05-24 11:27:13,670 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:13,787 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=12938429&endBlock=13021932&liquidity=16658326678760968&lowerTick=196140&upperTick=198780 HTTP/1.1" 200 76
+2022-05-24 11:27:13,803 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=12938429&endBlock=13021932&liquidity=16658326678760968&lowerTick=196140&upperTick=198780
+2022-05-24 11:27:13,803 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 1769841385, 'earned1': 575271739779530816}}
+2022-05-24 11:27:13,803 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:13,803 [DEBUG] [asar(426)] [MainThread] 4
+2022-05-24 11:27:13,803 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:13,803 [DEBUG] [asar(428)] [MainThread] timestamp           1628928000.0
+block                 13021932.0
+tick                    195257.0
+lower_tick              196140.0
+upper_tick              198780.0
+price                3315.279908
+lower_price          2330.912148
+upper_price           3035.10637
+event                     remove
+holder_value        126183.81116
+holder_diff         18039.606862
+holder_cum_pnl      29929.247429
+lp_amount_0         113457.19456
+lp_amount_1                  0.0
+lp_total_value      113457.19456
+lp_diff              5312.990262
+lp_cum_pnl           9244.643096
+fee_0                1769.841385
+fee_1                   0.575272
+fee_total_value      3677.028226
+fee_diff             3677.028226
+cum_fee              7889.579689
+equity             117134.222785
+dtype: object
+2022-05-24 11:27:13,819 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:13,819 [DEBUG] [asar(426)] [MainThread] 4
+2022-05-24 11:27:13,819 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:13,819 [DEBUG] [asar(428)] [MainThread] timestamp           1628928000.0
+block                 13021932.0
+tick                    195257.0
+lower_tick              196140.0
+upper_tick              198780.0
+price                3315.279908
+lower_price          2330.912148
+upper_price           3035.10637
+event                remove swap
+holder_value        126183.81116
+holder_diff         18039.606862
+holder_cum_pnl      29929.247429
+lp_amount_0        117134.222785
+lp_amount_1                    0
+lp_total_value     117134.222785
+lp_diff              5312.990262
+lp_cum_pnl           9244.643096
+fee_0                1769.841385
+fee_1                   0.575272
+fee_total_value      3677.028226
+fee_diff             3677.028226
+cum_fee              7889.579689
+equity             117134.222785
+dtype: object
+2022-05-24 11:27:13,819 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-08-14 08:00:00+00:00
+2022-05-24 11:27:13,819 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:13,819 [DEBUG] [asar(426)] [MainThread] 5
+2022-05-24 11:27:13,819 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:13,819 [DEBUG] [asar(428)] [MainThread] timestamp           1628928001.0
+block                 13021933.0
+tick                    195257.0
+lower_tick              193980.0
+upper_tick              196020.0
+price                3315.279908
+lower_price          3071.745208
+upper_price          3766.837057
+event                        add
+holder_value       117134.222785
+holder_diff                    0
+holder_cum_pnl      29929.247429
+lp_amount_0        117134.222785
+lp_amount_1                    0
+lp_total_value     117134.222785
+lp_diff                        0
+lp_cum_pnl           9244.643096
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee              7889.579689
+equity             117134.222785
+dtype: object
+2022-05-24 11:27:13,834 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:13,856 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13021933&amount0=44160445358&lowerTick=193980&upperTick=196020 HTTP/1.1" 200 234
+2022-05-24 11:27:13,856 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13021933&amount0=44160445358&lowerTick=193980&upperTick=196020
+2022-05-24 11:27:13,856 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.0003016630429109414, 'price1': 3314.9569478261396, 'tick': 195257, 'sqrt_price_x96': 1376070350730040618729623990777410, 'amount0': 44160445358, 'amount1': 22057386836637601792, 'liquidity': 20517454145636484}}
+2022-05-24 11:27:13,872 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:13,872 [DEBUG] [asar(426)] [MainThread] 5
+2022-05-24 11:27:13,872 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:13,872 [DEBUG] [asar(428)] [MainThread] timestamp           1628928001.0
+block                 13021933.0
+tick                    195257.0
+lower_tick              193980.0
+upper_tick              196020.0
+price                3315.279908
+lower_price          3071.745208
+upper_price          3766.837057
+event                   add swap
+holder_value       117134.222785
+holder_diff                    0
+holder_cum_pnl      29929.247429
+lp_amount_0         44160.445359
+lp_amount_1            22.011347
+lp_total_value     117134.222785
+lp_diff                        0
+lp_cum_pnl           9244.643096
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee              7889.579689
+equity             117134.222785
+dtype: object
+2022-05-24 11:27:13,872 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-08-14 08:00:01+00:00
+2022-05-24 11:27:18,399 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:18,521 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13021933&endBlock=13313082&liquidity=20517454145636484&lowerTick=193980&upperTick=196020 HTTP/1.1" 200 77
+2022-05-24 11:27:18,525 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13021933&endBlock=13313082&liquidity=20517454145636484&lowerTick=193980&upperTick=196020
+2022-05-24 11:27:18,525 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 8532942731, 'earned1': 2604979574224829952}}
+2022-05-24 11:27:18,531 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:18,531 [DEBUG] [asar(426)] [MainThread] 6
+2022-05-24 11:27:18,531 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:18,531 [DEBUG] [asar(428)] [MainThread] timestamp           1632816000.0
+block                 13313082.0
+tick                    196618.0
+lower_tick              193980.0
+upper_tick              196020.0
+price                2893.447974
+lower_price          3071.745208
+upper_price          3766.837057
+event                     remove
+holder_value       107849.133578
+holder_diff         -9285.089208
+holder_cum_pnl      20644.158221
+lp_amount_0                  0.0
+lp_amount_1            35.849584
+lp_total_value     103728.905627
+lp_diff            -13405.317158
+lp_cum_pnl          -4160.674062
+fee_0                8532.942731
+fee_1                    2.60498
+fee_total_value     16070.315601
+fee_diff            16070.315601
+cum_fee              23959.89529
+equity             119799.221228
+dtype: object
+2022-05-24 11:27:18,539 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:18,539 [DEBUG] [asar(426)] [MainThread] 6
+2022-05-24 11:27:18,539 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:18,539 [DEBUG] [asar(428)] [MainThread] timestamp           1632816000.0
+block                 13313082.0
+tick                    196618.0
+lower_tick              193980.0
+upper_tick              196020.0
+price                2893.447974
+lower_price          3071.745208
+upper_price          3766.837057
+event                remove swap
+holder_value       107849.133578
+holder_diff         -9285.089208
+holder_cum_pnl      20644.158221
+lp_amount_0        119799.221228
+lp_amount_1                    0
+lp_total_value     119799.221228
+lp_diff            -13405.317158
+lp_cum_pnl          -4160.674062
+fee_0                8532.942731
+fee_1                    2.60498
+fee_total_value     16070.315601
+fee_diff            16070.315601
+cum_fee              23959.89529
+equity             119799.221228
+dtype: object
+2022-05-24 11:27:18,542 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-09-28 08:00:00+00:00
+2022-05-24 11:27:18,544 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:18,544 [DEBUG] [asar(426)] [MainThread] 7
+2022-05-24 11:27:18,544 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:18,544 [DEBUG] [asar(428)] [MainThread] timestamp           1632816001.0
+block                 13313083.0
+tick                    196618.0
+lower_tick              195000.0
+upper_tick              199080.0
+price                2893.447974
+lower_price          2262.026676
+upper_price          3401.582525
+event                        add
+holder_value       119799.221228
+holder_diff                    0
+holder_cum_pnl      20644.158221
+lp_amount_0        119799.221228
+lp_amount_1                    0
+lp_total_value     119799.221228
+lp_diff                        0
+lp_cum_pnl          -4160.674062
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee              23959.89529
+equity             119799.221228
+dtype: object
+2022-05-24 11:27:18,544 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:18,591 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13313083&amount0=71694763528&lowerTick=195000&upperTick=199080 HTTP/1.1" 200 235
+2022-05-24 11:27:18,591 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13313083&amount0=71694763528&lowerTick=195000&upperTick=199080
+2022-05-24 11:27:18,591 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.00034563600193104806, 'price1': 2893.2171255686867, 'tick': 196618, 'sqrt_price_x96': 1472953613503662423382349623496693, 'amount0': 71694763528, 'amount1': 16639572048060114944, 'liquidity': 11511931801542782}}
+2022-05-24 11:27:18,606 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:18,606 [DEBUG] [asar(426)] [MainThread] 7
+2022-05-24 11:27:18,606 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:18,606 [DEBUG] [asar(428)] [MainThread] timestamp           1632816001.0
+block                 13313083.0
+tick                    196618.0
+lower_tick              195000.0
+upper_tick              199080.0
+price                2893.447974
+lower_price          2262.026676
+upper_price          3401.582525
+event                   add swap
+holder_value       119799.221228
+holder_diff                    0
+holder_cum_pnl      20644.158221
+lp_amount_0         71694.763528
+lp_amount_1            16.625306
+lp_total_value     119799.221228
+lp_diff                        0
+lp_cum_pnl          -4160.674062
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee              23959.89529
+equity             119799.221228
+dtype: object
+2022-05-24 11:27:18,606 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-09-28 08:00:01+00:00
+2022-05-24 11:27:20,145 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:20,254 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13313083&endBlock=13415138&liquidity=11511931801542782&lowerTick=195000&upperTick=199080 HTTP/1.1" 200 75
+2022-05-24 11:27:20,254 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13313083&endBlock=13415138&liquidity=11511931801542782&lowerTick=195000&upperTick=199080
+2022-05-24 11:27:20,254 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 933819655, 'earned1': 252420165716767616}}
+2022-05-24 11:27:20,254 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:20,254 [DEBUG] [asar(426)] [MainThread] 8
+2022-05-24 11:27:20,254 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:20,254 [DEBUG] [asar(428)] [MainThread] timestamp           1634198400.0
+block                 13415138.0
+tick                    194342.0
+lower_tick              195000.0
+upper_tick              199080.0
+price                3632.922723
+lower_price          2262.026676
+upper_price          3401.582525
+event                     remove
+holder_value       132093.215153
+holder_diff         12293.993924
+holder_cum_pnl      32938.152145
+lp_amount_0        123852.410443
+lp_amount_1                  0.0
+lp_total_value     123852.410443
+lp_diff              4053.189214
+lp_cum_pnl           -107.484847
+fee_0                 933.819655
+fee_1                    0.25242
+fee_total_value      1850.842611
+fee_diff             1850.842611
+cum_fee             25810.737901
+equity             125703.253054
+dtype: object
+2022-05-24 11:27:20,270 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:20,270 [DEBUG] [asar(426)] [MainThread] 8
+2022-05-24 11:27:20,270 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:20,270 [DEBUG] [asar(428)] [MainThread] timestamp           1634198400.0
+block                 13415138.0
+tick                    194342.0
+lower_tick              195000.0
+upper_tick              199080.0
+price                3632.922723
+lower_price          2262.026676
+upper_price          3401.582525
+event                remove swap
+holder_value       132093.215153
+holder_diff         12293.993924
+holder_cum_pnl      32938.152145
+lp_amount_0        125703.253054
+lp_amount_1                    0
+lp_total_value     125703.253054
+lp_diff              4053.189214
+lp_cum_pnl           -107.484847
+fee_0                 933.819655
+fee_1                    0.25242
+fee_total_value      1850.842611
+fee_diff             1850.842611
+cum_fee             25810.737901
+equity             125703.253054
+dtype: object
+2022-05-24 11:27:20,270 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-10-14 08:00:00+00:00
+2022-05-24 11:27:20,270 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:20,270 [DEBUG] [asar(426)] [MainThread] 9
+2022-05-24 11:27:20,270 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:20,270 [DEBUG] [asar(428)] [MainThread] timestamp           1634198401.0
+block                 13415139.0
+tick                    194342.0
+lower_tick              192960.0
+upper_tick              195120.0
+price                3632.922723
+lower_price          3361.009489
+upper_price          4171.311825
+event                        add
+holder_value       125703.253054
+holder_diff                    0
+holder_cum_pnl      32938.152145
+lp_amount_0        125703.253054
+lp_amount_1                    0
+lp_total_value     125703.253054
+lp_diff                        0
+lp_cum_pnl           -107.484847
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             25810.737901
+equity             125703.253054
+dtype: object
+2022-05-24 11:27:20,285 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:20,317 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13415139&amount0=45710817021&lowerTick=192960&upperTick=195120 HTTP/1.1" 200 235
+2022-05-24 11:27:20,317 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13415139&amount0=45710817021&lowerTick=192960&upperTick=195120
+2022-05-24 11:27:20,317 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.00027526686699594507, 'price1': 3632.8382377190746, 'tick': 194342, 'sqrt_price_x96': 1314487781805027466740247402567269, 'amount0': 45710817021, 'amount1': 22029304235563261952, 'liquidity': 19884497824233676}}
+2022-05-24 11:27:20,317 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:20,317 [DEBUG] [asar(426)] [MainThread] 9
+2022-05-24 11:27:20,317 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:20,317 [DEBUG] [asar(428)] [MainThread] timestamp           1634198401.0
+block                 13415139.0
+tick                    194342.0
+lower_tick              192960.0
+upper_tick              195120.0
+price                3632.922723
+lower_price          3361.009489
+upper_price          4171.311825
+event                   add swap
+holder_value       125703.253054
+holder_diff                    0
+holder_cum_pnl      32938.152145
+lp_amount_0         45710.817022
+lp_amount_1            22.018755
+lp_total_value     125703.253054
+lp_diff                        0
+lp_cum_pnl           -107.484847
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             25810.737901
+equity             125703.253054
+dtype: object
+2022-05-24 11:27:20,332 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-10-14 08:00:01+00:00
+2022-05-24 11:27:21,745 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:21,792 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13415139&endBlock=13510838&liquidity=19884497824233676&lowerTick=192960&upperTick=195120 HTTP/1.1" 200 76
+2022-05-24 11:27:21,792 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13415139&endBlock=13510838&liquidity=19884497824233676&lowerTick=192960&upperTick=195120
+2022-05-24 11:27:21,792 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 2525573890, 'earned1': 574118961149213824}}
+2022-05-24 11:27:21,792 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:21,792 [DEBUG] [asar(426)] [MainThread] 10
+2022-05-24 11:27:21,792 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:21,792 [DEBUG] [asar(428)] [MainThread] timestamp           1635494400.0
+block                 13510838.0
+tick                    192639.0
+lower_tick              192960.0
+upper_tick              195120.0
+price                4307.376283
+lower_price          3361.009489
+upper_price          4171.311825
+event                     remove
+holder_value       140553.880875
+holder_diff         14850.627821
+holder_cum_pnl      47788.779967
+lp_amount_0        131425.884426
+lp_amount_1                  0.0
+lp_total_value     131425.884426
+lp_diff              5722.631372
+lp_cum_pnl           5615.146525
+fee_0                 2525.57389
+fee_1                   0.574119
+fee_total_value      4998.520287
+fee_diff             4998.520287
+cum_fee             30809.258188
+equity             136424.404713
+dtype: object
+2022-05-24 11:27:21,807 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:21,807 [DEBUG] [asar(426)] [MainThread] 10
+2022-05-24 11:27:21,807 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:21,807 [DEBUG] [asar(428)] [MainThread] timestamp           1635494400.0
+block                 13510838.0
+tick                    192639.0
+lower_tick              192960.0
+upper_tick              195120.0
+price                4307.376283
+lower_price          3361.009489
+upper_price          4171.311825
+event                remove swap
+holder_value       140553.880875
+holder_diff         14850.627821
+holder_cum_pnl      47788.779967
+lp_amount_0        136424.404713
+lp_amount_1                    0
+lp_total_value     136424.404713
+lp_diff              5722.631372
+lp_cum_pnl           5615.146525
+fee_0                 2525.57389
+fee_1                   0.574119
+fee_total_value      4998.520287
+fee_diff             4998.520287
+cum_fee             30809.258188
+equity             136424.404713
+dtype: object
+2022-05-24 11:27:21,807 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-10-29 08:00:00+00:00
+2022-05-24 11:27:21,807 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:21,807 [DEBUG] [asar(426)] [MainThread] 11
+2022-05-24 11:27:21,807 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:21,807 [DEBUG] [asar(428)] [MainThread] timestamp           1635494401.0
+block                 13510839.0
+tick                    192639.0
+lower_tick              191220.0
+upper_tick              193140.0
+price                4307.376283
+lower_price          4096.903615
+upper_price          4964.049669
+event                        add
+holder_value       136424.404713
+holder_diff                    0
+holder_cum_pnl      47788.779967
+lp_amount_0        136424.404713
+lp_amount_1                    0
+lp_total_value     136424.404713
+lp_diff                        0
+lp_cum_pnl           5615.146525
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             30809.258188
+equity             136424.404713
+dtype: object
+2022-05-24 11:27:21,823 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:21,839 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13510839&amount0=36200433588&lowerTick=191220&upperTick=193140 HTTP/1.1" 200 233
+2022-05-24 11:27:21,839 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13510839&amount0=36200433588&lowerTick=191220&upperTick=193140
+2022-05-24 11:27:21,839 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.0002321818499183438, 'price1': 4306.968870959081, 'tick': 192639, 'sqrt_price_x96': 1207240279748702701450683985190901, 'amount0': 36200433588, 'amount1': 23328653943387275264, 'liquidity': 22339854637330216}}
+2022-05-24 11:27:21,839 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:21,839 [DEBUG] [asar(426)] [MainThread] 11
+2022-05-24 11:27:21,839 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:21,839 [DEBUG] [asar(428)] [MainThread] timestamp           1635494401.0
+block                 13510839.0
+tick                    192639.0
+lower_tick              191220.0
+upper_tick              193140.0
+price                4307.376283
+lower_price          4096.903615
+upper_price          4964.049669
+event                   add swap
+holder_value       136424.404713
+holder_diff                    0
+holder_cum_pnl      47788.779967
+lp_amount_0         36200.433588
+lp_amount_1            23.267986
+lp_total_value     136424.404713
+lp_diff                        0
+lp_cum_pnl           5615.146525
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             30809.258188
+equity             136424.404713
+dtype: object
+2022-05-24 11:27:21,839 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-10-29 08:00:01+00:00
+2022-05-24 11:27:23,580 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:23,674 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13510839&endBlock=13644403&liquidity=22339854637330216&lowerTick=191220&upperTick=193140 HTTP/1.1" 200 76
+2022-05-24 11:27:23,674 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13510839&endBlock=13644403&liquidity=22339854637330216&lowerTick=191220&upperTick=193140
+2022-05-24 11:27:23,674 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 3769099207, 'earned1': 876391063752202496}}
+2022-05-24 11:27:23,690 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:23,690 [DEBUG] [asar(426)] [MainThread] 12
+2022-05-24 11:27:23,690 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:23,690 [DEBUG] [asar(428)] [MainThread] timestamp           1637308800.0
+block                 13644403.0
+tick                    193242.0
+lower_tick              191220.0
+upper_tick              193140.0
+price                4055.329665
+lower_price          4096.903615
+upper_price          4964.049669
+event                     remove
+holder_value       130559.787515
+holder_diff         -5864.617198
+holder_cum_pnl      41924.162769
+lp_amount_0                  0.0
+lp_amount_1             31.88545
+lp_total_value     129306.012518
+lp_diff             -7118.392194
+lp_cum_pnl           -1503.24567
+fee_0                3769.099207
+fee_1                   0.876391
+fee_total_value      7323.153886
+fee_diff             7323.153886
+cum_fee             38132.412073
+equity             136629.166404
+dtype: object
+2022-05-24 11:27:23,705 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:23,705 [DEBUG] [asar(426)] [MainThread] 12
+2022-05-24 11:27:23,705 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:23,705 [DEBUG] [asar(428)] [MainThread] timestamp           1637308800.0
+block                 13644403.0
+tick                    193242.0
+lower_tick              191220.0
+upper_tick              193140.0
+price                4055.329665
+lower_price          4096.903615
+upper_price          4964.049669
+event                remove swap
+holder_value       130559.787515
+holder_diff         -5864.617198
+holder_cum_pnl      41924.162769
+lp_amount_0        136629.166404
+lp_amount_1                    0
+lp_total_value     136629.166404
+lp_diff             -7118.392194
+lp_cum_pnl           -1503.24567
+fee_0                3769.099207
+fee_1                   0.876391
+fee_total_value      7323.153886
+fee_diff             7323.153886
+cum_fee             38132.412073
+equity             136629.166404
+dtype: object
+2022-05-24 11:27:23,705 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-11-19 08:00:00+00:00
+2022-05-24 11:27:23,721 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:23,721 [DEBUG] [asar(426)] [MainThread] 13
+2022-05-24 11:27:23,721 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:23,721 [DEBUG] [asar(428)] [MainThread] timestamp           1637308801.0
+block                 13644404.0
+tick                    193242.0
+lower_tick              192480.0
+upper_tick              195120.0
+price                4055.329665
+lower_price          3361.009489
+upper_price          4376.407458
+event                        add
+holder_value       136629.166404
+holder_diff                    0
+holder_cum_pnl      41924.162769
+lp_amount_0        136629.166404
+lp_amount_1                    0
+lp_total_value     136629.166404
+lp_diff                        0
+lp_cum_pnl           -1503.24567
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             38132.412073
+equity             136629.166404
+dtype: object
+2022-05-24 11:27:23,721 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:23,737 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13644404&amount0=96414485862&lowerTick=192480&upperTick=195120 HTTP/1.1" 200 233
+2022-05-24 11:27:23,737 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13644404&amount0=96414485862&lowerTick=192480&upperTick=195120
+2022-05-24 11:27:23,737 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.00024661210795623255, 'price1': 4054.950944166435, 'tick': 193242, 'sqrt_price_x96': 1244190214886548290927583558998370, 'amount0': 96414485862, 'amount1': 9934064675951470592, 'liquidity': 16902122599472880}}
+2022-05-24 11:27:23,752 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:23,752 [DEBUG] [asar(426)] [MainThread] 13
+2022-05-24 11:27:23,752 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:23,752 [DEBUG] [asar(428)] [MainThread] timestamp           1637308801.0
+block                 13644404.0
+tick                    193242.0
+lower_tick              192480.0
+upper_tick              195120.0
+price                4055.329665
+lower_price          3361.009489
+upper_price          4376.407458
+event                   add swap
+holder_value       136629.166404
+holder_diff                    0
+holder_cum_pnl      41924.162769
+lp_amount_0         96414.485862
+lp_amount_1             9.916501
+lp_total_value     136629.166404
+lp_diff                        0
+lp_cum_pnl           -1503.24567
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             38132.412073
+equity             136629.166404
+dtype: object
+2022-05-24 11:27:23,752 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-11-19 08:00:01+00:00
+2022-05-24 11:27:24,996 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:25,081 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13644404&endBlock=13719847&liquidity=16902122599472880&lowerTick=192480&upperTick=195120 HTTP/1.1" 200 76
+2022-05-24 11:27:25,082 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13644404&endBlock=13719847&liquidity=16902122599472880&lowerTick=192480&upperTick=195120
+2022-05-24 11:27:25,082 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 1764389461, 'earned1': 392282566682610048}}
+2022-05-24 11:27:25,087 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,087 [DEBUG] [asar(426)] [MainThread] 14
+2022-05-24 11:27:25,088 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,088 [DEBUG] [asar(428)] [MainThread] timestamp           1638345600.0
+block                 13719847.0
+tick                    191623.0
+lower_tick              192480.0
+upper_tick              195120.0
+price                4767.985497
+lower_price          3361.009489
+upper_price          4376.407458
+event                     remove
+holder_value       143696.218659
+holder_diff          7067.052255
+holder_cum_pnl      48991.215024
+lp_amount_0        138190.828415
+lp_amount_1                  0.0
+lp_total_value     138190.828415
+lp_diff              1561.662012
+lp_cum_pnl             58.416342
+fee_0                1764.389461
+fee_1                   0.392283
+fee_total_value       3634.78705
+fee_diff              3634.78705
+cum_fee             41767.199123
+equity             141825.615465
+dtype: object
+2022-05-24 11:27:25,096 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,096 [DEBUG] [asar(426)] [MainThread] 14
+2022-05-24 11:27:25,096 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,096 [DEBUG] [asar(428)] [MainThread] timestamp           1638345600.0
+block                 13719847.0
+tick                    191623.0
+lower_tick              192480.0
+upper_tick              195120.0
+price                4767.985497
+lower_price          3361.009489
+upper_price          4376.407458
+event                remove swap
+holder_value       143696.218659
+holder_diff          7067.052255
+holder_cum_pnl      48991.215024
+lp_amount_0        141825.615465
+lp_amount_1                    0
+lp_total_value     141825.615465
+lp_diff              1561.662012
+lp_cum_pnl             58.416342
+fee_0                1764.389461
+fee_1                   0.392283
+fee_total_value       3634.78705
+fee_diff              3634.78705
+cum_fee             41767.199123
+equity             141825.615465
+dtype: object
+2022-05-24 11:27:25,100 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-12-01 08:00:00+00:00
+2022-05-24 11:27:25,100 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,100 [DEBUG] [asar(426)] [MainThread] 15
+2022-05-24 11:27:25,100 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,100 [DEBUG] [asar(428)] [MainThread] timestamp           1638345601.0
+block                 13719848.0
+tick                    191623.0
+lower_tick              190200.0
+upper_tick              192600.0
+price                4767.985497
+lower_price          4324.207008
+upper_price          5497.078523
+event                        add
+holder_value       141825.615465
+holder_diff                    0
+holder_cum_pnl      48991.215024
+lp_amount_0        141825.615465
+lp_amount_1                    0
+lp_total_value     141825.615465
+lp_diff                        0
+lp_cum_pnl             58.416342
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             41767.199123
+equity             141825.615465
+dtype: object
+2022-05-24 11:27:25,100 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:25,146 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13719848&amount0=58113079308&lowerTick=190200&upperTick=192600 HTTP/1.1" 200 232
+2022-05-24 11:27:25,146 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13719848&amount0=58113079308&lowerTick=190200&upperTick=192600
+2022-05-24 11:27:25,146 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.000209741501066732, 'price1': 4767.773640000016, 'tick': 191623, 'sqrt_price_x96': 1147418293530563650295341945000000, 'amount0': 58113079308, 'amount1': 17571081364398718976, 'liquidity': 17661595908507734}}
+2022-05-24 11:27:25,162 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,162 [DEBUG] [asar(426)] [MainThread] 15
+2022-05-24 11:27:25,162 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,162 [DEBUG] [asar(428)] [MainThread] timestamp           1638345601.0
+block                 13719848.0
+tick                    191623.0
+lower_tick              190200.0
+upper_tick              192600.0
+price                4767.985497
+lower_price          4324.207008
+upper_price          5497.078523
+event                   add swap
+holder_value       141825.615465
+holder_diff                    0
+holder_cum_pnl      48991.215024
+lp_amount_0         58113.079309
+lp_amount_1            17.557213
+lp_total_value     141825.615465
+lp_diff                        0
+lp_cum_pnl             58.416342
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             41767.199123
+equity             141825.615465
+dtype: object
+2022-05-24 11:27:25,162 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-12-01 08:00:01+00:00
+2022-05-24 11:27:25,483 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:25,546 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13719848&endBlock=13738650&liquidity=17661595908507734&lowerTick=190200&upperTick=192600 HTTP/1.1" 200 75
+2022-05-24 11:27:25,546 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13719848&endBlock=13738650&liquidity=17661595908507734&lowerTick=190200&upperTick=192600
+2022-05-24 11:27:25,546 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 435056594, 'earned1': 133728839498998608}}
+2022-05-24 11:27:25,561 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,561 [DEBUG] [asar(426)] [MainThread] 16
+2022-05-24 11:27:25,561 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,561 [DEBUG] [asar(428)] [MainThread] timestamp           1638604800.0
+block                 13738650.0
+tick                    193673.0
+lower_tick              190200.0
+upper_tick              192600.0
+price                3884.266401
+lower_price          4324.207008
+upper_price          5497.078523
+event                     remove
+holder_value       126309.971207
+holder_diff        -15515.644259
+holder_cum_pnl      33475.570765
+lp_amount_0                  0.0
+lp_amount_1            30.355539
+lp_total_value     117909.001764
+lp_diff            -23916.613702
+lp_cum_pnl          -23858.19736
+fee_0                 435.056594
+fee_1                   0.133729
+fee_total_value       954.495032
+fee_diff              954.495032
+cum_fee             42721.694155
+equity             118863.496796
+dtype: object
+2022-05-24 11:27:25,561 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,561 [DEBUG] [asar(426)] [MainThread] 16
+2022-05-24 11:27:25,561 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,561 [DEBUG] [asar(428)] [MainThread] timestamp           1638604800.0
+block                 13738650.0
+tick                    193673.0
+lower_tick              190200.0
+upper_tick              192600.0
+price                3884.266401
+lower_price          4324.207008
+upper_price          5497.078523
+event                remove swap
+holder_value       126309.971207
+holder_diff        -15515.644259
+holder_cum_pnl      33475.570765
+lp_amount_0        118863.496796
+lp_amount_1                    0
+lp_total_value     118863.496796
+lp_diff            -23916.613702
+lp_cum_pnl          -23858.19736
+fee_0                 435.056594
+fee_1                   0.133729
+fee_total_value       954.495032
+fee_diff              954.495032
+cum_fee             42721.694155
+equity             118863.496796
+dtype: object
+2022-05-24 11:27:25,561 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-12-04 08:00:00+00:00
+2022-05-24 11:27:25,577 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,577 [DEBUG] [asar(426)] [MainThread] 17
+2022-05-24 11:27:25,577 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,577 [DEBUG] [asar(428)] [MainThread] timestamp           1638604801.0
+block                 13738651.0
+tick                    193673.0
+lower_tick              191880.0
+upper_tick              195840.0
+price                3884.266401
+lower_price          3127.534429
+upper_price          4647.015441
+event                        add
+holder_value       118863.496796
+holder_diff                    0
+holder_cum_pnl      33475.570765
+lp_amount_0        118863.496796
+lp_amount_1                    0
+lp_total_value     118863.496796
+lp_diff                        0
+lp_cum_pnl          -23858.19736
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             42721.694155
+equity             118863.496796
+dtype: object
+2022-05-24 11:27:25,577 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:25,608 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13738651&amount0=64773822085&lowerTick=191880&upperTick=195840 HTTP/1.1" 200 235
+2022-05-24 11:27:25,608 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=13738651&amount0=64773822085&lowerTick=191880&upperTick=195840
+2022-05-24 11:27:25,608 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.00025746841880772175, 'price1': 3883.9714968957155, 'tick': 193673, 'sqrt_price_x96': 1271281030498455411523953115237554, 'amount0': 64773822085, 'amount1': 13936643600055818240, 'liquidity': 10125412877680850}}
+2022-05-24 11:27:25,608 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,608 [DEBUG] [asar(426)] [MainThread] 17
+2022-05-24 11:27:25,608 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:25,608 [DEBUG] [asar(428)] [MainThread] timestamp           1638604801.0
+block                 13738651.0
+tick                    193673.0
+lower_tick              191880.0
+upper_tick              195840.0
+price                3884.266401
+lower_price          3127.534429
+upper_price          4647.015441
+event                   add swap
+holder_value       118863.496796
+holder_diff                    0
+holder_cum_pnl      33475.570765
+lp_amount_0         64773.822085
+lp_amount_1            13.925326
+lp_total_value     118863.496796
+lp_diff                        0
+lp_cum_pnl          -23858.19736
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             42721.694155
+equity             118863.496796
+dtype: object
+2022-05-24 11:27:25,624 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2021-12-04 08:00:01+00:00
+2022-05-24 11:27:30,157 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:30,252 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13738651&endBlock=14047721&liquidity=10125412877680850&lowerTick=191880&upperTick=195840 HTTP/1.1" 200 77
+2022-05-24 11:27:30,252 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=13738651&endBlock=14047721&liquidity=10125412877680850&lowerTick=191880&upperTick=195840
+2022-05-24 11:27:30,252 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 4735752692, 'earned1': 1332405143066809856}}
+2022-05-24 11:27:30,252 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:30,252 [DEBUG] [asar(426)] [MainThread] 18
+2022-05-24 11:27:30,252 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:30,252 [DEBUG] [asar(428)] [MainThread] timestamp           1642752000.0
+block                 14047721.0
+tick                    196645.0
+lower_tick              191880.0
+upper_tick              195840.0
+price                2885.646591
+lower_price          3127.534429
+upper_price          4647.015441
+event                     remove
+holder_value       104957.390695
+holder_diff        -13906.106101
+holder_cum_pnl      19569.464664
+lp_amount_0                  0.0
+lp_amount_1             32.50953
+lp_total_value      93811.014298
+lp_diff            -25052.482498
+lp_cum_pnl         -48910.679858
+fee_0                4735.752692
+fee_1                   1.332405
+fee_total_value      8580.603051
+fee_diff             8580.603051
+cum_fee             51302.297206
+equity             102391.617348
+dtype: object
+2022-05-24 11:27:30,268 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:30,268 [DEBUG] [asar(426)] [MainThread] 18
+2022-05-24 11:27:30,268 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:30,268 [DEBUG] [asar(428)] [MainThread] timestamp           1642752000.0
+block                 14047721.0
+tick                    196645.0
+lower_tick              191880.0
+upper_tick              195840.0
+price                2885.646591
+lower_price          3127.534429
+upper_price          4647.015441
+event                remove swap
+holder_value       104957.390695
+holder_diff        -13906.106101
+holder_cum_pnl      19569.464664
+lp_amount_0        102391.617348
+lp_amount_1                    0
+lp_total_value     102391.617348
+lp_diff            -25052.482498
+lp_cum_pnl         -48910.679858
+fee_0                4735.752692
+fee_1                   1.332405
+fee_total_value      8580.603051
+fee_diff             8580.603051
+cum_fee             51302.297206
+equity             102391.617348
+dtype: object
+2022-05-24 11:27:30,268 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2022-01-21 08:00:00+00:00
+2022-05-24 11:27:30,268 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:30,268 [DEBUG] [asar(426)] [MainThread] 19
+2022-05-24 11:27:30,268 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:30,268 [DEBUG] [asar(428)] [MainThread] timestamp           1642752001.0
+block                 14047722.0
+tick                    196645.0
+lower_tick              195660.0
+upper_tick              199740.0
+price                2885.646591
+lower_price          2117.559974
+upper_price          3184.336897
+event                        add
+holder_value       102391.617348
+holder_diff                    0
+holder_cum_pnl      19569.464664
+lp_amount_0        102391.617348
+lp_amount_1                    0
+lp_total_value     102391.617348
+lp_diff                        0
+lp_cum_pnl         -48910.679858
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             51302.297206
+equity             102391.617348
+dtype: object
+2022-05-24 11:27:30,283 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:30,315 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14047722&amount0=76686789795&lowerTick=195660&upperTick=199740 HTTP/1.1" 200 233
+2022-05-24 11:27:30,315 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14047722&amount0=76686789795&lowerTick=195660&upperTick=199740
+2022-05-24 11:27:30,315 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.00034655054864555823, 'price1': 2885.5819271051587, 'tick': 196645, 'sqrt_price_x96': 1474901030680445218805071878625588, 'amount0': 76686789795, 'amount1': 8910595842722666496, 'liquidity': 9958470154422150}}
+2022-05-24 11:27:30,330 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:30,330 [DEBUG] [asar(426)] [MainThread] 19
+2022-05-24 11:27:30,330 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:30,330 [DEBUG] [asar(428)] [MainThread] timestamp           1642752001.0
+block                 14047722.0
+tick                    196645.0
+lower_tick              195660.0
+upper_tick              199740.0
+price                2885.646591
+lower_price          2117.559974
+upper_price          3184.336897
+event                   add swap
+holder_value       102391.617348
+holder_diff                    0
+holder_cum_pnl      19569.464664
+lp_amount_0         76686.789796
+lp_amount_1             8.907822
+lp_total_value     102391.617348
+lp_diff                        0
+lp_cum_pnl         -48910.679858
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             51302.297206
+equity             102391.617348
+dtype: object
+2022-05-24 11:27:30,330 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2022-01-21 08:00:01+00:00
+2022-05-24 11:27:36,241 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:36,322 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14047722&endBlock=14473335&liquidity=9958470154422150&lowerTick=195660&upperTick=199740 HTTP/1.1" 200 77
+2022-05-24 11:27:36,324 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14047722&endBlock=14473335&liquidity=9958470154422150&lowerTick=195660&upperTick=199740
+2022-05-24 11:27:36,324 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 8942536680, 'earned1': 3371879837444056576}}
+2022-05-24 11:27:36,335 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:36,336 [DEBUG] [asar(426)] [MainThread] 20
+2022-05-24 11:27:36,336 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:36,336 [DEBUG] [asar(428)] [MainThread] timestamp           1648454400.0
+block                 14473335.0
+tick                    195251.0
+lower_tick              195660.0
+upper_tick              199740.0
+price                3317.269573
+lower_price          2117.559974
+upper_price          3184.336897
+event                     remove
+holder_value       106236.438253
+holder_diff          3844.820905
+holder_cum_pnl      23414.285569
+lp_amount_0        103689.206091
+lp_amount_1                  0.0
+lp_total_value     103689.206091
+lp_diff              1297.588743
+lp_cum_pnl         -47613.091115
+fee_0                 8942.53668
+fee_1                    3.37188
+fee_total_value     20127.971069
+fee_diff            20127.971069
+cum_fee             71430.268275
+equity             123817.177161
+dtype: object
+2022-05-24 11:27:36,344 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:36,344 [DEBUG] [asar(426)] [MainThread] 20
+2022-05-24 11:27:36,344 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:36,344 [DEBUG] [asar(428)] [MainThread] timestamp           1648454400.0
+block                 14473335.0
+tick                    195251.0
+lower_tick              195660.0
+upper_tick              199740.0
+price                3317.269573
+lower_price          2117.559974
+upper_price          3184.336897
+event                remove swap
+holder_value       106236.438253
+holder_diff          3844.820905
+holder_cum_pnl      23414.285569
+lp_amount_0        123817.177161
+lp_amount_1                    0
+lp_total_value     123817.177161
+lp_diff              1297.588743
+lp_cum_pnl         -47613.091115
+fee_0                 8942.53668
+fee_1                    3.37188
+fee_total_value     20127.971069
+fee_diff            20127.971069
+cum_fee             71430.268275
+equity             123817.177161
+dtype: object
+2022-05-24 11:27:36,344 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2022-03-28 08:00:00+00:00
+2022-05-24 11:27:36,360 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:36,360 [DEBUG] [asar(426)] [MainThread] 21
+2022-05-24 11:27:36,360 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:36,360 [DEBUG] [asar(428)] [MainThread] timestamp           1648454401.0
+block                 14473336.0
+tick                    195251.0
+lower_tick              193860.0
+upper_tick              195780.0
+price                3317.269573
+lower_price            3146.3551
+upper_price          3812.309114
+event                        add
+holder_value       123817.177161
+holder_diff                    0
+holder_cum_pnl      23414.285569
+lp_amount_0        123817.177161
+lp_amount_1                    0
+lp_total_value     123817.177161
+lp_diff                        0
+lp_cum_pnl         -47613.091115
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             71430.268275
+equity             123817.177161
+dtype: object
+2022-05-24 11:27:36,360 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:36,407 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14473336&amount0=34645061087&lowerTick=193860&upperTick=195780 HTTP/1.1" 200 234
+2022-05-24 11:27:36,407 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14473336&amount0=34645061087&lowerTick=193860&upperTick=195780
+2022-05-24 11:27:36,407 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.0003014558500277764, 'price1': 3317.2353427802414, 'tick': 195251, 'sqrt_price_x96': 1375597702583070749715223686984460, 'amount0': 34645061087, 'amount1': 26888557990238490624, 'liquidity': 23049602414789004}}
+2022-05-24 11:27:36,421 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:36,422 [DEBUG] [asar(426)] [MainThread] 21
+2022-05-24 11:27:36,422 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:36,422 [DEBUG] [asar(428)] [MainThread] timestamp           1648454401.0
+block                 14473336.0
+tick                    195251.0
+lower_tick              193860.0
+upper_tick              195780.0
+price                3317.269573
+lower_price            3146.3551
+upper_price          3812.309114
+event                   add swap
+holder_value       123817.177161
+holder_diff                    0
+holder_cum_pnl      23414.285569
+lp_amount_0         34645.061088
+lp_amount_1            26.881179
+lp_total_value     123817.177161
+lp_diff                        0
+lp_cum_pnl         -47613.091115
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             71430.268275
+equity             123817.177161
+dtype: object
+2022-05-24 11:27:36,425 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2022-03-28 08:00:01+00:00
+2022-05-24 11:27:38,068 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:38,162 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14473336&endBlock=14569512&liquidity=23049602414789004&lowerTick=193860&upperTick=195780 HTTP/1.1" 200 76
+2022-05-24 11:27:38,162 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14473336&endBlock=14569512&liquidity=23049602414789004&lowerTick=193860&upperTick=195780
+2022-05-24 11:27:38,162 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 1976207412, 'earned1': 622534638966100224}}
+2022-05-24 11:27:38,177 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:38,177 [DEBUG] [asar(426)] [MainThread] 22
+2022-05-24 11:27:38,177 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:38,177 [DEBUG] [asar(428)] [MainThread] timestamp           1649750400.0
+block                 14569512.0
+tick                    196195.0
+lower_tick              193860.0
+upper_tick              195780.0
+price                3018.459937
+lower_price            3146.3551
+upper_price          3812.309114
+event                     remove
+holder_value       115784.821932
+holder_diff         -8032.355229
+holder_cum_pnl       15381.93034
+lp_amount_0                  0.0
+lp_amount_1            37.604939
+lp_total_value     113509.000406
+lp_diff            -10308.176755
+lp_cum_pnl         -57921.267869
+fee_0                1976.207412
+fee_1                   0.622535
+fee_total_value      3855.303279
+fee_diff             3855.303279
+cum_fee             75285.571554
+equity             117364.303685
+dtype: object
+2022-05-24 11:27:38,194 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:38,195 [DEBUG] [asar(426)] [MainThread] 22
+2022-05-24 11:27:38,195 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:38,195 [DEBUG] [asar(428)] [MainThread] timestamp           1649750400.0
+block                 14569512.0
+tick                    196195.0
+lower_tick              193860.0
+upper_tick              195780.0
+price                3018.459937
+lower_price            3146.3551
+upper_price          3812.309114
+event                remove swap
+holder_value       115784.821932
+holder_diff         -8032.355229
+holder_cum_pnl       15381.93034
+lp_amount_0        117364.303685
+lp_amount_1                    0
+lp_total_value     117364.303685
+lp_diff            -10308.176755
+lp_cum_pnl         -57921.267869
+fee_0                1976.207412
+fee_1                   0.622535
+fee_total_value      3855.303279
+fee_diff             3855.303279
+cum_fee             75285.571554
+equity             117364.303685
+dtype: object
+2022-05-24 11:27:38,202 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2022-04-12 08:00:00+00:00
+2022-05-24 11:27:38,212 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:38,212 [DEBUG] [asar(426)] [MainThread] 23
+2022-05-24 11:27:38,213 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:38,213 [DEBUG] [asar(428)] [MainThread] timestamp           1649750401.0
+block                 14569513.0
+tick                    196195.0
+lower_tick              195120.0
+upper_tick              197760.0
+price                3018.459937
+lower_price          2581.200423
+upper_price          3361.009489
+event                        add
+holder_value       117364.303685
+holder_diff                    0
+holder_cum_pnl       15381.93034
+lp_amount_0        117364.303685
+lp_amount_1                    0
+lp_total_value     117364.303685
+lp_diff                        0
+lp_cum_pnl         -57921.267869
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             75285.571554
+equity             117364.303685
+dtype: object
+2022-05-24 11:27:38,223 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:38,260 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14569513&amount0=69230320950&lowerTick=195120&upperTick=197760 HTTP/1.1" 200 233
+2022-05-24 11:27:38,260 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14569513&amount0=69230320950&lowerTick=195120&upperTick=197760
+2022-05-24 11:27:38,261 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.0003313174597115978, 'price1': 3018.253251339277, 'tick': 196195, 'sqrt_price_x96': 1442121146547534962590293853048896, 'amount0': 69230320950, 'amount1': 15964232930341462016, 'liquidity': 16750151901622520}}
+2022-05-24 11:27:38,266 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:38,267 [DEBUG] [asar(426)] [MainThread] 23
+2022-05-24 11:27:38,267 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:38,267 [DEBUG] [asar(428)] [MainThread] timestamp           1649750401.0
+block                 14569513.0
+tick                    196195.0
+lower_tick              195120.0
+upper_tick              197760.0
+price                3018.459937
+lower_price          2581.200423
+upper_price          3361.009489
+event                   add swap
+holder_value       117364.303685
+holder_diff                    0
+holder_cum_pnl       15381.93034
+lp_amount_0         69230.320951
+lp_amount_1            15.946537
+lp_total_value     117364.303685
+lp_diff                        0
+lp_cum_pnl         -57921.267869
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee             75285.571554
+equity             117364.303685
+dtype: object
+2022-05-24 11:27:38,273 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2022-04-12 08:00:01+00:00
+2022-05-24 11:27:40,973 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:41,229 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14569513&endBlock=14747421&liquidity=16750151901622520&lowerTick=195120&upperTick=197760 HTTP/1.1" 200 76
+2022-05-24 11:27:41,231 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/fee?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&startBlock=14569513&endBlock=14747421&liquidity=16750151901622520&lowerTick=195120&upperTick=197760
+2022-05-24 11:27:41,233 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'earned0': 2528080986, 'earned1': 949365172241698944}}
+2022-05-24 11:27:41,240 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:41,240 [DEBUG] [asar(426)] [MainThread] 24
+2022-05-24 11:27:41,240 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:41,240 [DEBUG] [asar(428)] [MainThread] timestamp           1652169600.0
+block                 14747421.0
+tick                    198573.0
+lower_tick              195120.0
+upper_tick              197760.0
+price                2379.662416
+lower_price          2581.200423
+upper_price          3361.009489
+event                     remove
+holder_value       107177.695462
+holder_diff        -10186.608223
+holder_cum_pnl       5195.322117
+lp_amount_0                  0.0
+lp_amount_1            40.748884
+lp_total_value      96968.586685
+lp_diff               -20395.717
+lp_cum_pnl         -78316.984869
+fee_0                2528.080986
+fee_1                   0.949365
+fee_total_value      4787.249606
+fee_diff             4787.249606
+cum_fee              80072.82116
+equity             101755.836291
+dtype: object
+2022-05-24 11:27:41,248 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:41,248 [DEBUG] [asar(426)] [MainThread] 24
+2022-05-24 11:27:41,248 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:41,248 [DEBUG] [asar(428)] [MainThread] timestamp           1652169600.0
+block                 14747421.0
+tick                    198573.0
+lower_tick              195120.0
+upper_tick              197760.0
+price                2379.662416
+lower_price          2581.200423
+upper_price          3361.009489
+event                remove swap
+holder_value       107177.695462
+holder_diff        -10186.608223
+holder_cum_pnl       5195.322117
+lp_amount_0        101755.836291
+lp_amount_1                    0
+lp_total_value     101755.836291
+lp_diff               -20395.717
+lp_cum_pnl         -78316.984869
+fee_0                2528.080986
+fee_1                   0.949365
+fee_total_value      4787.249606
+fee_diff             4787.249606
+cum_fee              80072.82116
+equity             101755.836291
+dtype: object
+2022-05-24 11:27:41,249 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2022-05-10 08:00:00+00:00
+2022-05-24 11:27:41,249 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:41,249 [DEBUG] [asar(426)] [MainThread] 25
+2022-05-24 11:27:41,249 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:41,249 [DEBUG] [asar(428)] [MainThread] timestamp           1652169601.0
+block                 14747422.0
+tick                    198573.0
+lower_tick              197220.0
+upper_tick              200700.0
+price                2379.662416
+lower_price          1923.736272
+upper_price          2724.409946
+event                        add
+holder_value       101755.836291
+holder_diff                    0
+holder_cum_pnl       5195.322117
+lp_amount_0        101755.836291
+lp_amount_1                    0
+lp_total_value     101755.836291
+lp_diff                        0
+lp_cum_pnl         -78316.984869
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee              80072.82116
+equity             101755.836291
+dtype: object
+2022-05-24 11:27:41,264 [DEBUG] [_new_conn(228)] [MainThread] Starting new HTTP connection (1): office.teahouse.finance:8181
+2022-05-24 11:27:41,299 [DEBUG] [_make_request(456)] [MainThread] http://office.teahouse.finance:8181 "GET /pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14747422&amount0=61731815781&lowerTick=197220&upperTick=200700 HTTP/1.1" 200 233
+2022-05-24 11:27:41,300 [DEBUG] [request(14)] [MainThread] http://office.teahouse.finance:8181/pools/estimate/position_info/by_amount0?network=eth_mainnet&pool=0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8&block=14747422&amount0=61731815781&lowerTick=197220&upperTick=200700
+2022-05-24 11:27:41,300 [DEBUG] [request(16)] [MainThread] {'success': True, 'data': {'price0': 0.000420252768077237, 'price1': 2379.5203172016063, 'tick': 198573, 'sqrt_price_x96': 1624182680550029972783695607000000, 'amount0': 61731815781, 'amount1': 16831860173045411840, 'liquidity': 12547348851960726}}
+2022-05-24 11:27:41,305 [DEBUG] [asar(425)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:41,306 [DEBUG] [asar(426)] [MainThread] 25
+2022-05-24 11:27:41,306 [DEBUG] [asar(427)] [MainThread] ----------------------------------------------------------------------------------------------------
+2022-05-24 11:27:41,306 [DEBUG] [asar(428)] [MainThread] timestamp           1652169601.0
+block                 14747422.0
+tick                    198573.0
+lower_tick              197220.0
+upper_tick              200700.0
+price                2379.662416
+lower_price          1923.736272
+upper_price          2724.409946
+event                   add swap
+holder_value       101755.836291
+holder_diff                    0
+holder_cum_pnl       5195.322117
+lp_amount_0         61731.815782
+lp_amount_1            16.819201
+lp_total_value     101755.836291
+lp_diff                        0
+lp_cum_pnl         -78316.984869
+fee_0                          0
+fee_1                          0
+fee_total_value              0.0
+fee_diff                       0
+cum_fee              80072.82116
+equity             101755.836291
+dtype: object
+2022-05-24 11:27:41,309 [DEBUG] [feed_signal(129)] [MainThread] Simulation: 2022-05-10 08:00:01+00:00
+2022-05-24 11:27:42,600 [INFO] [is_hist_complete_callback(66)] [MainThread] Simulating in historical data complete.
+2022-05-24 12:00:03,489 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:03,496 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:04,475 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:04,498 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:02+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:04,498 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:04,498 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:09,502 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:09,509 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:10,376 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:10,380 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:02+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:10,381 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:10,381 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:15,389 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:15,395 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:16,266 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:16,268 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:02+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:16,269 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:16,269 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:21,273 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:21,286 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:22,183 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:22,188 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:33+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:22,188 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:22,188 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:27,195 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:27,202 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:28,085 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:28,089 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:33+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:28,089 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:28,089 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:33,096 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:33,103 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:34,012 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:34,016 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:33+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:34,016 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:34,016 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:39,020 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:39,027 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:39,917 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:39,919 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:33+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:39,919 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:39,920 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:44,926 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:44,933 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:45,864 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:45,868 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:33+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:45,868 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:45,868 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:50,872 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:50,878 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:51,521 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:51,526 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:56:33+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:51,526 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:51,526 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:00:56,541 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:00:56,553 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:00:57,445 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:00:57,447 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:57:06+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:00:57,447 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:00:57,447 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:02,463 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:02,470 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:03,356 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:03,363 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:57:06+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:03,363 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:03,363 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:08,372 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:08,379 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:08,989 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:08,993 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:57:06+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:08,993 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:08,994 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:14,003 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:14,009 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:14,621 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:14,626 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:57:06+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:14,626 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:14,626 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:19,638 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:19,645 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:20,241 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:20,245 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:57:06+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:20,245 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:20,246 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:25,249 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:25,255 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:26,162 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:26,167 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:57:06+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:26,167 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:26,167 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:31,177 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:31,184 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:32,059 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:32,063 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:58:18+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:32,063 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:32,063 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:37,072 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:37,075 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:38,001 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:38,005 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:58:18+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:38,006 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:38,006 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:43,015 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:43,021 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:43,629 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:43,633 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:58:18+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:43,634 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:43,634 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:48,648 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:48,655 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:49,535 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:49,539 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:58:18+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:49,540 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:49,540 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:01:54,542 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:01:54,549 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:01:55,187 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:01:55,192 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:58:18+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:01:55,192 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:01:55,192 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:00,206 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:00,213 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:00,842 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:00,844 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:00,844 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:00,844 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:05,848 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:05,854 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:06,731 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:06,735 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:06,736 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:06,736 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:11,750 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:11,764 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:12,685 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:12,689 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:12,689 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:12,689 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:17,700 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:17,707 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:18,330 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:18,334 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:18,335 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:18,335 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:23,338 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:23,345 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:24,195 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:24,200 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:24,200 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:24,200 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:29,212 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:29,219 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:30,102 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:30,106 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:30,106 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:30,107 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:35,114 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:35,120 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:35,738 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:35,747 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:35,748 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:35,748 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:40,763 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:40,770 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:41,385 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:41,389 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:41,389 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:41,390 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:46,402 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:46,408 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:47,287 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:47,291 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:47,291 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:47,292 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:52,302 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:52,308 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:53,246 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:53,250 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:53,250 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:53,250 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:02:58,254 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:02:58,260 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:02:59,148 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:02:59,152 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:44+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:02:59,153 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:02:59,153 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:03:04,165 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:03:04,171 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:03:05,071 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:03:05,076 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:47+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:03:05,076 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:03:05,076 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:03:10,086 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:03:10,093 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:03:11,028 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:03:11,032 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:47+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:03:11,032 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:03:11,033 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:03:16,042 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:03:16,049 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:03:16,662 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:03:16,665 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:47+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:03:16,665 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:03:16,665 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:03:21,679 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:03:21,685 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:03:22,559 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:03:22,562 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:47+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:03:22,562 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:03:22,562 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:03:27,570 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:03:27,577 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:03:28,184 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:03:28,188 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:47+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:03:28,188 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:03:28,189 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:03:33,200 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:03:33,207 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:03:33,836 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:03:33,841 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 03:59:47+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:03:33,841 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 12:03:33,841 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 04:00:00+00:00.
+2022-05-24 12:03:38,853 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 12:03:38,860 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:03:39,736 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 12:03:39,740 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 04:00:03+00:00, Check time: 2022-05-24 04:00:00+00:00
+2022-05-24 12:03:39,741 [INFO] [update_real_time_k_bar(69)] [Thread-quote] Triggering k bar updating.
+2022-05-24 12:03:39,741 [INFO] [get_ticks(33)] [Thread-quote] get ticks data: 2022-05-24 00:00:01+00:00 - 2022-05-24 04:00:00+00:00
+2022-05-24 12:03:39,741 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/events/0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8/1653350401/1653364800
+2022-05-24 12:03:39,744 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 12:03:41,378 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/events/0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8/1653350401/1653364800 HTTP/1.1" 200 None
+2022-05-24 12:03:41,385 [DEBUG] [fetch_dex_tx(42)] [Thread-quote] request success.
+2022-05-24 12:03:41,496 [DEBUG] [update_real_time_k_bar(82)] [Thread-quote] Next bar close: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:00,084 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:00,087 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:01,076 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:01,079 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:57:26+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:01,079 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:01,079 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:06,081 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:06,088 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:06,966 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:06,970 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:57:26+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:06,971 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:06,971 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:11,985 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:11,992 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:12,905 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:12,909 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:07+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:12,910 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:12,910 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:17,916 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:17,922 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:18,561 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:18,569 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:07+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:18,570 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:18,571 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:23,579 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:23,585 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:24,457 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:24,461 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:07+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:24,461 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:24,462 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:29,470 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:29,476 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:30,421 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:30,425 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:07+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:30,425 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:30,426 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:35,429 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:35,436 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:36,329 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:36,333 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:07+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:36,333 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:36,333 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:41,341 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:41,348 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:42,233 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:42,237 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:07+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:42,237 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:42,238 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:47,247 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:47,254 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:47,872 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:47,877 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:38+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:47,877 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:47,877 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:52,883 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:52,890 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:53,505 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:53,510 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:38+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:53,510 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:53,510 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:00:58,522 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:00:58,529 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:00:59,136 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:00:59,141 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:38+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:00:59,141 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:00:59,141 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:04,154 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:04,160 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:04,770 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:04,777 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:38+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:04,777 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:04,778 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:09,780 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:09,787 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:10,643 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:10,647 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:58:38+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:10,647 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:10,648 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:15,658 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:15,663 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:16,537 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:16,539 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:13+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:16,539 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:16,539 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:21,541 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:21,548 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:22,176 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:22,181 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:13+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:22,181 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:22,181 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:27,188 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:27,195 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:27,806 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:27,815 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:13+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:27,816 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:27,817 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:32,833 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:32,836 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:33,455 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:33,457 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:13+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:33,457 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:33,457 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:38,465 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:38,472 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:39,075 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:39,079 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:13+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:39,079 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:39,080 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:44,095 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:44,102 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:45,022 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:45,026 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:13+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:45,027 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:45,027 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:50,031 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:50,038 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:50,946 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:50,951 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:26+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:50,951 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:50,951 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:01:55,955 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:01:55,961 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:01:56,860 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:01:56,864 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:26+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:01:56,864 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:01:56,865 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:01,866 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:01,873 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:02,755 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:02,759 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:26+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:02,759 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:02,760 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:07,769 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:07,776 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:08,661 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:08,665 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:26+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:08,665 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:08,666 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:13,676 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:13,680 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:14,588 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:14,592 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:26+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:14,592 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:14,592 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:19,595 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:19,602 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:20,508 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:20,513 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:26+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:20,513 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:20,513 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:25,517 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:25,524 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:26,175 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:26,179 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:34+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:26,179 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:26,179 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:31,189 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:31,196 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:32,080 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:32,085 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:34+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:32,085 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:32,085 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:37,095 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:37,101 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:37,999 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:38,003 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:34+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:38,004 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:38,004 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:43,018 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:43,024 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:43,909 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:43,914 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:34+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:43,914 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:43,914 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:48,925 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:48,932 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:49,864 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:49,868 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:34+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:49,868 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:49,868 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:02:54,872 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:02:54,879 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:02:55,758 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:02:55,763 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:35+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:02:55,763 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:02:55,763 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:03:00,777 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:03:00,784 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:03:01,400 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:03:01,404 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:35+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:03:01,404 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:03:01,405 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:03:06,408 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:03:06,414 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:03:07,276 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:03:07,280 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:35+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:03:07,280 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:03:07,281 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:03:12,292 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:03:12,299 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:03:12,907 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:03:12,911 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:35+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:03:12,911 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:03:12,911 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:03:17,924 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:03:17,930 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:03:18,795 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:03:18,799 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:35+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:03:18,800 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:03:18,800 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:03:23,812 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:03:23,819 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:03:24,689 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:03:24,691 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 07:59:35+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:03:24,691 [DEBUG] [if_device_time_meet_block_time(108)] [Thread-quote] Block time smaller than now.
+2022-05-24 16:03:24,691 [INFO] [wait_for_block_time(93)] [Thread-quote] Waiting block time to 2022-05-24 08:00:00+00:00.
+2022-05-24 16:03:29,699 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/list
+2022-05-24 16:03:29,706 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:03:30,317 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/list HTTP/1.1" 200 None
+2022-05-24 16:03:30,322 [INFO] [if_device_time_meet_block_time(102)] [Thread-quote] Block time: 2022-05-24 08:00:25+00:00, Check time: 2022-05-24 08:00:00+00:00
+2022-05-24 16:03:30,322 [INFO] [update_real_time_k_bar(69)] [Thread-quote] Triggering k bar updating.
+2022-05-24 16:03:30,322 [INFO] [get_ticks(33)] [Thread-quote] get ticks data: 2022-05-24 04:00:01+00:00 - 2022-05-24 08:00:00+00:00
+2022-05-24 16:03:30,322 [DEBUG] [http_browser(20)] [Thread-quote] Request url: https://swap-api.teahouse.finance/eth/pools/events/0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8/1653364801/1653379200
+2022-05-24 16:03:30,325 [DEBUG] [_new_conn(1001)] [Thread-quote] Starting new HTTPS connection (1): swap-api.teahouse.finance:443
+2022-05-24 16:03:31,730 [DEBUG] [_make_request(456)] [Thread-quote] https://swap-api.teahouse.finance:443 "GET /eth/pools/events/0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8/1653364801/1653379200 HTTP/1.1" 200 None
+2022-05-24 16:03:31,738 [DEBUG] [fetch_dex_tx(42)] [Thread-quote] request success.
+2022-05-24 16:03:31,868 [DEBUG] [update_real_time_k_bar(82)] [Thread-quote] Next bar close: 2022-05-24 12:00:00+00:00

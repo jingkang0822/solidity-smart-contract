@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CommonUtil" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LedgerDomain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/QuoteDomain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StrategyDomain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PerformanceDomain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/API" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/API/TeaVaultAPI" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/API/TeaVaultAPI/TeaVaultObj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TradeSignal" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.9 (tea_strategy_platform)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
